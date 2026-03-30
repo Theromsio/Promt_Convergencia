@@ -2,101 +2,17 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Informe de Convergencia Blue Prism | Cencosud S.A.</title>
+<title>Informe de Convergencia Famoc | Cencosud S.A.</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{--primary:#0B5A97;--secondary:#0081c7;--accent:#00a2e1;--bg:#111a24;--bg-card:#071320;--bg-card2:#0d1e2e;--card-bg:rgba(13,22,38,0.88);--text:#e3eaf5;--text-muted:#7a9abe;--border:rgba(0,162,225,0.28);--risk-high:#ff4b2b;--risk-med:#f9d423;--risk-low:#00b09b;--transition:all 0.3s cubic-bezier(0.4,0,0.2,1);--shadow:0 8px 32px rgba(0,0,0,0.45);--glow:0 0 22px rgba(0,162,225,0.35);}
-*{margin:0;padding:0;box-sizing:border-box;}
-html { scroll-behavior: smooth; }
-body{font-family:"Inter",-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;display:flex;min-height:100vh;}
-.app-layout{display:flex;width:100%;min-height:100vh;}
-.sidebar{width:260px;background:var(--bg-card);border-right:1px solid var(--border);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;flex-shrink:0;z-index:2000;}
-.sidebar-header{padding:26px 20px 4px;border-bottom:0;}
-.sidebar-header h2::before{display:none;}
-.sidebar-logo-wrap {margin:14px 0 10px; border-radius:12px;overflow:hidden;background:#1356ae;padding:10px;display:flex;align-items:center;justify-content:center;}
-.sidebar-logo-wrap img {width:100%;max-width:160px;height:auto;}
-.sidebar-nav{padding:16px 0;overflow-y:auto;flex-grow:1;border-top:1px solid rgba(0,162,225,0.1);}
-.sidebar-nav a{display:flex;align-items:center;gap:9px;padding:11px 20px;color:var(--text-muted);text-decoration:none;font-size:13px;transition:var(--transition);border-left:3px solid transparent;}
-.sidebar-nav a svg {width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2;}
-.sidebar-nav a:hover{background:rgba(0,162,225,0.1);color:var(--text);border-left-color:var(--accent);padding-left:24px;}
-.sidebar-nav a.active{background:rgba(0,162,225,0.13);color:var(--accent);font-weight:600;border-left-color:var(--accent);}
-.main-content{flex-grow:1;min-width:0;display:flex;flex-direction:column;}
-.container{max-width:1200px;margin:0 auto;padding:20px;width:100%;}
-.sticky-header{position:sticky;top:0;z-index:1500;background:rgba(7,13,23,0.92);backdrop-filter:blur(18px);border-bottom:2px solid var(--secondary);padding:18px 40px;margin-bottom:28px;box-shadow:var(--shadow);display:flex;justify-content:space-between;align-items:center;}
-.logo-section{display:flex;align-items:center;gap:18px;}
-.company-logo{width:56px;height:56px;background:linear-gradient(135deg,var(--secondary),var(--accent));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800;color:#fff;box-shadow:var(--glow);flex-shrink:0;}
-.header-text h1{font-size:24px;font-weight:700;color:var(--text);margin:0;}
-.header-text h1 span {background:linear-gradient(135deg,var(--accent),#6ee7b7);-webkit-background-clip:text;background-clip:text;color:transparent;}
-.header-text p{color:var(--text-muted);font-size:12.5px;margin-top:3px;}
-.hdr-tags {display:flex;gap:8px;}
-.hdr-tag {background:rgba(0,162,225,0.15);color:var(--accent);font-size:11px;padding:4px 12px;border-radius:20px;font-weight:600;border:1px solid var(--border);}
-section{margin-bottom:60px;scroll-margin-top:110px;}
-.exec-dashboard{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-bottom:48px;scroll-margin-top:110px;}
-.exec-card{background:var(--card-bg);backdrop-filter:blur(14px);border:1px solid var(--border);border-radius:14px;padding:22px;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;}
-.exec-card:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(0,162,225,0.25);border-color:var(--accent);}
-.ec-icon {position:absolute;top:20px;right:20px;opacity:0.6;}
-.ec-icon svg {stroke:var(--accent);width:22px;height:22px;}
-.exec-card-title{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);margin-bottom:12px;font-weight:600;}
-.exec-card-value{font-size:26px;font-weight:800;color:var(--accent);margin:6px 0;line-height:1;}
-.exec-card-subtitle{font-size:12px;color:var(--text-muted);margin-top:8px;line-height:1.4;}
-.section-heading{display:flex;align-items:center;gap:16px;font-size:24px;font-weight:700;color:var(--text);margin-bottom:24px;}
-.section-icon-wrap{width:42px;height:42px;border-radius:10px;flex-shrink:0;background:linear-gradient(135deg,var(--primary),var(--accent));display:flex;align-items:center;justify-content:center;box-shadow:var(--glow);}
-.section-icon-wrap svg{stroke:#fff;fill:none;stroke-width:2;width:22px;height:22px;}
-.module-title {display:flex;align-items:center;gap:10px;font-size:17px;font-weight:600;margin-bottom:16px;color:var(--accent);}
-.module-title svg{stroke:var(--accent);fill:none;stroke-width:2;width:18px;height:18px;flex-shrink:0;}
-.premium-card{background:var(--card-bg);backdrop-filter:blur(14px);border:1px solid var(--border);border-radius:14px;padding:26px;box-shadow:var(--shadow);transition:var(--transition);}
-.premium-card:hover{border-color:var(--accent);}
-.tech-id-grid{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:start;}
-.product-icon{width:108px;height:108px;background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:20px;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:900;color:#fff;box-shadow:0 8px 30px rgba(0,162,225,0.35);}
-.tech-details{display:flex;flex-direction:column;gap:10px;}
-.tech-detail-item{display:flex;align-items:baseline;gap:12px;}
-.tech-detail-label{font-weight:700;color:var(--accent);min-width:140px;font-size:13px;}
-.tech-detail-value{color:var(--text);font-size:14px;}
-.table-container{overflow-x:auto;border-radius:11px;background:var(--card-bg);backdrop-filter:blur(14px);border:1px solid var(--border);box-shadow:var(--shadow);}
-table{width:100%;border-collapse:collapse;}
-th{background:#0b1929;color:var(--accent);font-weight:700;text-align:left;padding:14px 16px;font-size:12px;text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid var(--secondary);position:sticky;top:0;z-index:10;line-height:1.4;}
-td{padding:12px 16px;border-bottom:1px solid rgba(0,162,225,0.15);font-size:13px;}
-tr:hover{background:rgba(0,162,225,0.06);}
-.scrollable-table{max-height:500px;overflow-y:auto;}
-.roadmap-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:20px;}
-.roadmap-card{background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:22px;transition:var(--transition);position:relative;overflow:hidden;}
-.roadmap-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--secondary),var(--accent));}
-.roadmap-card:hover{transform:translateY(-8px);box-shadow:0 12px 40px rgba(0,162,225,0.25);border-color:var(--accent);}
-.roadmap-number{font-size:42px;font-weight:900;background:linear-gradient(135deg,var(--accent),#6ee7b7);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1;margin-bottom:12px;}
-.roadmap-title{font-size:15px;font-weight:700;color:var(--accent);margin-bottom:10px;}
-.roadmap-description{font-size:13px;color:var(--text-muted);line-height:1.6;}
-.arch-diagram{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px;}
-.arch-block{background:var(--bg-card2);border:2px solid var(--border);border-radius:14px;padding:22px;text-align:center;transition:var(--transition);}
-.arch-block:hover{border-color:var(--accent);transform:scale(1.03);box-shadow:var(--glow);}
-.arch-title{font-size:13px;font-weight:700;color:var(--accent);margin-bottom:9px;text-transform:uppercase;letter-spacing:1px;}
-.arch-tech{font-size:17px;font-weight:800;color:var(--text);margin-bottom:6px;}
-.arch-role{font-size:12px;color:var(--text-muted);margin-bottom:12px;}
-.arch-function{font-size:13px;color:var(--text);line-height:1.5;}
-.metrics-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0;}
-.metric-card{background:var(--card-bg);border:2px solid var(--border);border-radius:14px;padding:24px;text-align:center;transition:var(--transition);}
-.metric-card:hover{transform:translateY(-7px);box-shadow:var(--shadow);}
-.metric-card.red{border-color:var(--risk-high);}.metric-card.blue{border-color:var(--accent);}.metric-card.green{border-color:var(--risk-low);}
-.metric-value{font-size:38px;font-weight:900;margin:12px 0;line-height:1;}
-.metric-card.red .metric-value{color:var(--risk-high);}.metric-card.blue .metric-value{color:var(--accent);}.metric-card.green .metric-value{color:var(--risk-low);}
-.metric-label{font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;font-weight:600;}
-.tag{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;margin:3px;background:rgba(0,162,225,0.15);color:var(--accent);border:1px solid var(--accent);}
-.tag.advantage{background:rgba(0,176,155,0.15);color:var(--risk-low);border-color:var(--risk-low);}.tag.challenge{background:rgba(249,212,35,0.15);color:var(--risk-med);border-color:var(--risk-med);}.tag.danger{background:rgba(255,75,43,0.15);color:var(--risk-high);border-color:var(--risk-high);}
-.biz-box{background:var(--bg-card2);border:2px solid var(--secondary);border-radius:14px;padding:24px;margin:20px 0;box-shadow:var(--glow);}
-.biz-box p{font-size:14px;line-height:1.8;color:var(--text);margin:0;}
-ul{padding-left:18px;}ul li{margin-bottom:10px;font-size:13.5px;line-height:1.7;}
-footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px;text-align:center;margin-top:40px;}
-.footer-copy{color:var(--text-muted);font-size:13px;margin-bottom:6px;}
-.footer-meta{font-size:11px;color:rgba(122,154,190,0.6);}
-@media(max-width:900px){.exec-dashboard,.roadmap-grid,.arch-diagram,.metrics-grid,.tech-id-grid{grid-template-columns:1fr;}.sidebar{display:none;}.sticky-header{padding:14px 20px;}}
-</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Theromsio/Promt_Convergencia@main/cencosud_premium.css">
 </head>
 <body>
 <div class="app-layout">
 <aside class="sidebar">
   <div class="sidebar-header">
-    <h2 style="font-size:20px;color:var(--accent);margin:0;padding:0;font-weight:800;letter-spacing:0.5px;">Blue Prism</h2>
+    <h2 style="font-size:20px;color:var(--accent);margin:0;padding:0;font-weight:800;letter-spacing:0.5px;">Famoc</h2>
     <p style="margin:5px 0 0;font-size:12.5px;color:var(--text-muted);">Estrategia Regional Corporate</p>
-    <div style="margin-top:12px;"><span class="tag" style="margin:0;padding:3px 10px;font-size:10px;">📅 2026</span></div>
+    <div style="margin-top:12px;"><span class="tag" style="margin:0;padding:3px 10px;font-size:10px;">📅 30 Marzo 2026</span></div>
     <div class="sidebar-logo-wrap">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Cencosud-2014.svg" alt="Cencosud S.A." />
     </div>
@@ -119,15 +35,15 @@ footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px
 <main class="main-content">
 <header class="sticky-header">
   <div class="logo-section">
-    <div class="company-logo">CS</div>
+    <div class="company-logo">FM</div>
     <div class="header-text">
-      <h1>Converge: <span>Blue Prism</span></h1>
-      <p>An&#225;lisis Estrat&#233;gico de Plataformas RPA / IA</p>
+      <h1>Converge: <span>Famoc</span></h1>
+      <p>An&#225;lisis Estrat&#233;gico de Plataformas UEM / MDM</p>
     </div>
   </div>
   <div class="hdr-tags">
-    <span class="hdr-tag">🤖 RPA / Autómata</span>
-    <span class="hdr-tag">🛡️ Alta Seguridad</span>
+    <span class="hdr-tag">📱 UEM / MDM</span>
+    <span class="hdr-tag">🛡️ Endpoint Security</span>
     <span class="hdr-tag">✅ Marzo 2026</span>
   </div>
 </header>
@@ -136,29 +52,29 @@ footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px
 <div class="exec-dashboard" id="dashboard">
   <div class="exec-card">
     <div class="ec-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
-    <div class="exec-card-title">Marca Original</div><div class="exec-card-value">Blue Prism</div><div class="exec-card-subtitle">SS&amp;C Technologies</div>
+    <div class="exec-card-title">Marca Original</div><div class="exec-card-value">Famoc</div><div class="exec-card-subtitle">Techstep Enterprise</div>
   </div>
   <div class="exec-card">
     <div class="ec-icon"><svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
-    <div class="exec-card-title">Sustituto 1</div><div class="exec-card-value">UiPath</div><div class="exec-card-subtitle">Plataforma End-to-End RPA</div>
+    <div class="exec-card-title">Sustituto 1</div><div class="exec-card-value">Microsoft Intune</div><div class="exec-card-subtitle">Unified Endpoint Management</div>
   </div>
   <div class="exec-card" style="border-left:4px solid var(--accent);">
     <div class="ec-icon"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
-    <div class="exec-card-title">% Convergencia</div><div class="exec-card-value">100%</div><div class="exec-card-subtitle">Con UiPath</div>
+    <div class="exec-card-title">% Convergencia</div><div class="exec-card-value">100%</div><div class="exec-card-subtitle">Con Microsoft Intune</div>
   </div>
   <div class="exec-card">
-    <div class="ec-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-    <div class="exec-card-title">Payback ROI</div><div class="exec-card-value">18m</div><div class="exec-card-subtitle">Refactor de robots BP (.bprelease)</div>
+    <div class="ec-icon"><svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+    <div class="exec-card-title">Origen de Datos</div><div class="exec-card-value">SGL</div><div class="exec-card-subtitle">Consulta Interna</div>
   </div>
   <div class="exec-card" style="border-left:4px solid var(--accent);">
     <div class="ec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><line x1="12" y1="18" x2="12" y2="6"/></svg></div>
-    <div class="exec-card-title">Precio lista mercado</div><div class="exec-card-value" style="color:var(--accent);">~$8,000</div><div class="exec-card-subtitle">Costo referencial Unattended</div>
+    <div class="exec-card-title">Precio lista mercado</div><div class="exec-card-value" style="color:var(--accent);">~$8-$10</div><div class="exec-card-subtitle">USD/Mes por Usuario</div>
   </div>
 </div>
 
 <div class="biz-box" style="margin-top:20px; border-left:4px solid var(--primary);">
   <p style="margin:0;"><b>CONCLUSIÓN EJECUTIVA:</b><br>
-  La convergencia hacia <strong>UiPath</strong> es <b>ALTAMENTE VIABLE (100% Cobertura)</b>. Reemplaza íntegramente las capacidades de Blue Prism eliminando deuda técnica on-premise. Aunque requiere refactorización de código legado, el ROI es veloz (~18m) gracias a un ecosistema cloud nativo, IA/OCR integrada, y modelos de licenciamiento concurrentes más eficientes que subsidian el costo referencial de ~$8,000 por runtime.</p>
+  La convergencia hacia <strong>Microsoft Intune</strong> es <b>ALTAMENTE ESTRATÉGICA Y EXCELENTEMENTE VIABLE</b>. Dado que la empresa ya posee el licenciamiento de Microsoft 365, el uso de Intune puede aprovecharse sin incrementar el Opex general ("incluido" en suites M365 E3/E5). Famoc se vuelve redundante y su eliminación inyecta ahorros directos de licenciamiento externo y consolida la postura de Zero-Trust corporativa.</p>
 </div>
 
 <section id="sec-1">
@@ -168,15 +84,15 @@ footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px
 </h2>
 <div class="premium-card">
   <div class="tech-id-grid">
-    <div class="product-icon">BP</div>
+    <div class="product-icon">FM</div>
     <div class="tech-details">
-      <div class="tech-detail-item"><span class="tech-detail-label">Marca Actual:</span><span class="tech-detail-value"><b>Blue Prism — Plataforma Intelligente de Automatizaci&#243;n (RPA)</b></span></div>
-      <div class="tech-detail-item"><span class="tech-detail-label">Fabricante:</span><span class="tech-detail-value"><b>SS&amp;C Technologies (Adquirida en 2022)</b></span></div>
-      <div class="tech-detail-item"><span class="tech-detail-label">Uso Principal:</span><span class="tech-detail-value"><b>Automatizaci&#243;n back-office desatendida, extracci&#243;n masiva, OCR, interacci&#243;n legado.</b></span></div>
-      <div class="tech-detail-item"><span class="tech-detail-label">Arquitectura:</span><span class="tech-detail-value"><b>On-Premise Server / DB SQL, conectores .NET WCF, Object/Process layering.</b></span></div>
-      <div class="tech-detail-item"><span class="tech-detail-label">Seguridad:</span><span class="tech-detail-value"><b>Credenciales en BD cifrada, Inmutabilidad total de logs de auditor&#237;a (est&#225;ndar bancario).</b></span></div>
+      <div class="tech-detail-item"><span class="tech-detail-label">Marca Actual:</span><span class="tech-detail-value"><b>Famoc Manage — Mobile Device Management (MDM)</b></span></div>
+      <div class="tech-detail-item"><span class="tech-detail-label">Fabricante:</span><span class="tech-detail-value"><b>Techstep / Famoc</b></span></div>
+      <div class="tech-detail-item"><span class="tech-detail-label">Uso Principal:</span><span class="tech-detail-value"><b>Gestión integral de dispositivos móviles (smartphones, tablets, puntos de venta).</b></span></div>
+      <div class="tech-detail-item"><span class="tech-detail-label">Arquitectura:</span><span class="tech-detail-value"><b>Cloud SaaS, agente cliente instalado.</b></span></div>
+      <div class="tech-detail-item"><span class="tech-detail-label">Seguridad:</span><span class="tech-detail-value"><b>Separación de datos corporativos vs personales, Wipe remoto, Kiosk mode.</b></span></div>
       <div style="margin-top:8px;">
-        <span class="tag">🛡️ Grado Bancario</span><span class="tag">💻 Unattended RPA</span><span class="tag">🏛️ Arquitectura 3-Tiers</span>
+        <span class="tag">📱 MDM Especializado</span><span class="tag">🏢 Gestión de Flotas</span><span class="tag">🔐 Kiosk Mode Base</span>
       </div>
     </div>
   </div>
@@ -190,17 +106,17 @@ footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px
 </h2>
 <div class="table-container">
 <table>
-<thead><tr><th>Plan (Edici&#243;n)</th><th>P&#250;blico / Uso</th><th>Precio Ref. 2026</th><th>Inclusiones</th><th>Compliance SAM</th></tr></thead>
+<thead><tr><th>Plan (Edici&#243;n)</th><th>P&#250;blico / Uso</th><th>Precio Ref. 2026</th><th>Inclusiones</th><th>Origen Sustituto</th></tr></thead>
 <tbody>
-<tr><td><b>Digital Worker (Robot)</b></td><td>Bot Runtime un-attended</td><td>~$7,500 - $10,000/a&#241;o</td><td>1 Runtime Engine, Control Room req.</td><td>Track via MAC o DB server</td></tr>
-<tr><td><b>Blue Prism Cloud</b></td><td>SaaS Enterprise</td><td>Premium Custom</td><td>Infraestructura hosteada, updates</td><td>Asignaci&#243;n Azure/AWS hosteada</td></tr>
-<tr><td><b>UiPath (Sustituto)</b></td><td>Flexible / Escalable</td><td>~$8,000 Unattended</td><td>AI Center addons, Orchestrator Free if cloud</td><td>Concurrent Licensing</td></tr>
-<tr><td><b>Automation Anywhere</b></td><td>Cloud Native</td><td>~$5,000 Unattended</td><td>A360 Control Room, API triggers</td><td>Flotante Cloud based</td></tr>
+<tr><td><b>Famoc Manage</b></td><td>Suscripción por dispositivo</td><td>~$3 - $6 USD/mes</td><td>MDM, MTD Básico, Reportes</td><td>(Actual)</td></tr>
+<tr><td><b>Microsoft Intune Plan 1</b></td><td>Core UEM</td><td>~$8 USD/mes (o M365)</td><td>MDM, MAM, Endpoint Analytics</td><td>SGL</td></tr>
+<tr><td><b>SOTI MobiControl</b></td><td>Entornos robustos/IoT</td><td>~$4 - $7 USD/mes</td><td>Kiosk avanzado, Remote Control</td><td>SGL</td></tr>
+<tr><td><b>Microsoft Intune Suite</b></td><td>Advanced UEM</td><td>~$10 USD/mes</td><td>Remote Help, Priv App VPN</td><td>SGL</td></tr>
 </tbody>
 </table>
 </div>
 <div style="margin-top:16px;background:var(--bg-card2);padding:16px;border-radius:10px;border-left:4px solid var(--accent);font-size:13.5px;">
-  <b>&#128161; Nota SAM (True-Up):</b> En Blue Prism tradicional (v6/v7 OnPrem) los "Digital Workers" son los únicos facturables. El Control Room, la base de datos y Studio (IDE) no cuestan asientos adicionales, al contrario que UiPath que cobra por Developers y Orchestrator Add-ons de IA. Migrar requiere recalcular que el ahorro por bot no se pierda pagando las herramientas de orquestación en UiPath.
+  <b>💡 Nota SAM (True-Up / Reconciliación):</b> Microsoft Intune frecuentemente ya se encuentra licenciado dentro de las suscripciones vigentes de M365 (F1, F3, E3, E5). Esto genera un fenómeno de superposición; mantener Famoc significa pagar obligatoriamente por un producto externo cuando las mismas capacidades UEM funcionales están subutilizadas y "pagadas" implícitamente en la factura de Microsoft del negocio.
 </div>
 </section>
 
@@ -210,80 +126,57 @@ footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px
   3. Master Feature Table
 </h2>
 <p style="color:var(--text-muted);font-size:13px;margin-bottom:16px;padding-left:8px;">
-  Esta tabla evalúa la convergencia técnica indicando el número de características que refleja la complejidad real de cada marca. Blue Prism requiere orquestación densa, y todas sus funciones se mapean a las equivalencias del mercado moderno RPA.
-  (&nbsp;&#9989; Equivalente/Superior &nbsp;|&nbsp; &#9888;&#65039; Parcial/Limitado &nbsp;|&nbsp; &#10060; No disponible&nbsp;)
+  Análisis exhaustivo de capacidades de Endpoint Management. ( ✅ Equivalente/Superior | ⚠️ Parcial/Limitado | ❌ No disponible )
 </p>
-<div class="table-container scrollable-table">
+<div class="table-container scrollable-table" style="max-height:500px;">
 <table>
 <thead>
 <tr>
-  <th style="min-width:180px;">n&#250;mero de caracter&#237;sticas que refleja la complejidad real de cada marca</th>
+  <th>#</th>
   <th>Categor&#237;a</th>
   <th>Feature (EN)</th>
   <th>Descripci&#243;n (ES)</th>
-  <th>Blue Prism (Actual)</th>
-  <th>UiPath (Sust. 1)</th>
-  <th>Aut. Anywhere (Sust. 2)</th>
-  <th>Sobre-Conv.</th>
+  <th>Famoc (Actual)</th>
+  <th>Intune (Sust. 1)</th>
+  <th>SOTI (Sust. 2)</th>
+  <th>% Conv.</th>
 </tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Core RPA</td><td>Visual Business Objects (VBO)</td><td>Objetos reutilizables que integran interactuaciones de interfaz e incluye la logica de negocio</td><td>✅ Nativo (C# / VB.NET)</td><td>✅ UiPath Libraries (C# / VB)</td><td>✅ Metabots / Packages</td><td>100%</td></tr>
-<tr><td>2</td><td>Core RPA</td><td>Process Studio</td><td>Lienzo de arrastrar y soltar similar a Visio para modelar flujos de trabajo RPA</td><td>✅ Nativo</td><td>✅ Studio / StudioX</td><td>✅ Bot Creator</td><td>100%</td></tr>
-<tr><td>3</td><td>Core RPA</td><td>Unattended Execution</td><td>Ejecución de procesos sin interacción humana en máquinas virtuales</td><td>✅ Fuerte enfoque nativo</td><td>✅ Unattended Robots</td><td>✅ Unattended Bots</td><td>100%</td></tr>
-<tr><td>4</td><td>Core RPA</td><td>Attended Execution</td><td>Automatización de tareas asistiendo a un humano en su escritorio</td><td>⚠️ Básico (Blue Prism Interact)</td><td>✅ Best-in-class (UiPath Assistant)</td><td>✅ AARI Desktop</td><td>150%</td></tr>
-<tr><td>5</td><td>Core RPA</td><td>Surface Automation (Computer Vision)</td><td>Automatización visual por imagen cuando no hay selectores disponibles (Citrix, RDP)</td><td>✅ Nativo (Region mode)</td><td>✅ AI Computer Vision avanzado</td><td>✅ AISense</td><td>150%</td></tr>
-<tr><td>6</td><td>Architecture</td><td>Relational Database Backend</td><td>Uso de base de datos SQL Server centralizada para almacenar scripts, logs y credenciales</td><td>✅ Nativo (Mandatory SQL)</td><td>✅ Nativo (SQL backend Orchestrator)</td><td>✅ Nativo</td><td>100%</td></tr>
-<tr><td>7</td><td>Architecture</td><td>Enterprise Identity Management</td><td>Integración con Active Directory y sistemas SSO para acceso de desarrolladores</td><td>✅ Active Directory / SSO</td><td>✅ Entra ID / Okta / SAML</td><td>✅ Enterprise SSO</td><td>100%</td></tr>
-<tr><td>8</td><td>Architecture</td><td>Centralized Credential Store</td><td>Manager nativo de bóveda segura para contraseñas de robots</td><td>✅ Credential Manager nativo</td><td>✅ CyberArk / Azure Vault Plugin</td><td>✅ Credential Vault</td><td>100%</td></tr>
-<tr><td>9</td><td>Architecture</td><td>Resource Pools</td><td>Agrupación de máquinas virtuales para distribuir cargas de trabajo dinámicamente</td><td>✅ Nativo</td><td>✅ Machine Folders / Templates</td><td>✅ Device Pools</td><td>100%</td></tr>
-<tr><td>10</td><td>Architecture</td><td>Cloud Native (SaaS)</td><td>Suministro de la plataforma como servicio cloud nativo sin infraestructura local</td><td>⚠️ Hub cloud pero worker on-prem</td><td>✅ UiPath Automation Cloud</td><td>✅ Automation 360 Cloud</td><td>150%</td></tr>
-<tr><td>11</td><td>Security</td><td>Audit Trails & Non-repudiation</td><td>Registro inmutable de cada clic o cambio en código por motivos regulatorios</td><td>✅ Best-in-class (Banca)</td><td>✅ Audit Logs + Insights</td><td>✅ Audit Logs</td><td>100%</td></tr>
-<tr><td>12</td><td>Security</td><td>Role-Based Access Control (RBAC)</td><td>Permisos granulares en cada nivel funcional del ciclo de vida</td><td>✅ Ultra granular</td><td>✅ Enterprise RBAC modern</td><td>✅ Roles & Permissions</td><td>100%</td></tr>
-<tr><td>13</td><td>Security</td><td>Data Encryption at Rest & Transit</td><td>Cifrado de base de datos y comunicaciones WCF/HTTPS</td><td>✅ Nativas</td><td>✅ Nativas</td><td>✅ Nativas</td><td>100%</td></tr>
-<tr><td>14</td><td>Orchestration</td><td>Control Room</td><td>Panel centralizado para iniciar, detener, programar y monitorizar bots</td><td>✅ Nativo (Control Room)</td><td>✅ UiPath Orchestrator</td><td>✅ Control Room</td><td>100%</td></tr>
-<tr><td>15</td><td>Orchestration</td><td>Work Queues (Transactional)</td><td>Gestor de colas transaccionales para procesar items individuales de forma concurrente</td><td>✅ Nativo (Best-in-class)</td><td>✅ Orchestrator Queues</td><td>✅ Workload Management</td><td>100%</td></tr>
-<tr><td>16</td><td>Orchestration</td><td>Dynamic Scheduling</td><td>Programación de tareas basada en disponibilidad de recursos o triggers</td><td>✅ Calendarios y Timers nativos</td><td>✅ Scheduling & Triggers</td><td>✅ Scheduling</td><td>100%</td></tr>
-<tr><td>17</td><td>Governance</td><td>Release Manager</td><td>Sistema integrado de empaquetado para mover bots de Dev a QA y Prod</td><td>✅ Releases nativos (.bprelease)</td><td>✅ CI/CD integrado (Azure DevOps/Git)</td><td>✅ Bot Lifecycle Management</td><td>150%</td></tr>
-<tr><td>18</td><td>Governance</td><td>Analytics / Dashboards</td><td>Visualización de ROI, tiempo devuelto al negocio y tasas de error</td><td>⚠️ Básico (necesita external SQL/BI)</td><td>✅ UiPath Insights nativo</td><td>✅ Bot Insight nativo</td><td>150%</td></tr>
-<tr><td>19</td><td>AI & Cognitive</td><td>Document Understanding (OCR/IDP)</td><td>Extracción inteligente de datos no estructurados en facturas/PDFs</td><td>⚠️ Vía Decipher IDP (plugin)</td><td>✅ Document Understanding nativo</td><td>✅ Automation Anywhere IQ Bot</td><td>150%</td></tr>
-<tr><td>20</td><td>AI & Cognitive</td><td>Machine Learning Skills Integrations</td><td>Capacidad de insertar modelos de Python/ML dentro de los flujos de decisión</td><td>⚠️ Vía API y WebServices</td><td>✅ AI Center nativo</td><td>✅ AARI / ML Plugins</td><td>150%</td></tr>
-<tr><td>21</td><td>AI & Cognitive</td><td>Generative AI Autopilot</td><td>Copiloto basado en LLMs para explicar código RPA o generarlo</td><td>❌ No nativo</td><td>✅ UiPath Autopilot</td><td>✅ Autopilot for A360</td><td>200%</td></tr>
-<tr><td>22</td><td>Discovery</td><td>Process Mining</td><td>Mapeo automático de procesos usando logs transaccionales del sistema ERP</td><td>⚠️ Básico vía partner</td><td>✅ Process Mining best-in-class</td><td>✅ Process Discovery</td><td>150%</td></tr>
-<tr><td>23</td><td>Discovery</td><td>Task Mining</td><td>Grabación de escritorio humano con IA para auto-generar documentación PDD</td><td>✅ Capture tool básico</td><td>✅ Task Mining / Task Capture</td><td>✅ Discovery Bot</td><td>150%</td></tr>
-<tr><td>24</td><td>Ecosystem</td><td>API Integrations (Connectors)</td><td>Conectores pre-construidos para SAP, Salesforce, Service Now, etc</td><td>⚠️ Digital Exchange (Dx)</td><td>✅ UiPath Integration Service (masivo)</td><td>✅ Enterprise API connectors</td><td>150%</td></tr>
-<tr><td>25</td><td>Ecosystem</td><td>Extensibility Code (C# / VB / Python)</td><td>Inyección de scripts nativos (.NET/Python) embebidos en la lógica</td><td>✅ Code Stages nativos (C# / VB)</td><td>✅ Invoke Code (C# / VB / Python)</td><td>✅ Python script package</td><td>100%</td></tr>
-<tr><td>26</td><td>Ecosystem</td><td>Marketplace / Community</td><td>Librerías open source y componentes descargables preconstruidos</td><td>⚠️ Digital Exchange</td><td>✅ UiPath Marketplace (Gigante)</td><td>✅ Bot Store</td><td>150%</td></tr>
-<tr><td>27</td><td>Operations</td><td>Exception Handling (Try/Catch)</td><td>Bloques de gestión de errores y recuperación para fallos de aplicaciones</td><td>✅ Recover / Resume nativos</td><td>✅ Try Catch Throw nativo</td><td>✅ Error handling package</td><td>100%</td></tr>
-<tr><td>28</td><td>Operations</td><td>Environment Variables</td><td>Variables externas globales gestionadas en el orchestrator para configurar URLs o Paths</td><td>✅ Env Variables</td><td>✅ Orchestrator Assets</td><td>✅ Global Values</td><td>100%</td></tr>
-<tr><td>29</td><td>Operations</td><td>High Availability / Disaster Recovery</td><td>Arquitectura escalable en clúster (Active-Passive / Active-Active)</td><td>✅ Failover multi-nodo soportado</td><td>✅ HA en Automation Cloud o OnPrem</td><td>✅ HA Cloud-native</td><td>100%</td></tr>
-<tr><td>30</td><td>Testing</td><td>Automated Testing Framework</td><td>Entornos dedicados con assertions para validar resiliencia del bot pre-producción</td><td>❌ No nativo</td><td>✅ UiPath Test Suite</td><td>✅ Test Automation</td><td>150%</td></tr>
-<tr><td>31</td><td>Integration</td><td>Mainframe Automation (Terminal Emulator)</td><td>Conexión a sistemas AS/400 o z/OS vía EHLLAPI</td><td>✅ Nativo (Terminal Emulator)</td><td>✅ Terminal Activities</td><td>✅ Terminal Emulator</td><td>100%</td></tr>
-<tr><td>32</td><td>Licensing</td><td>Floating Licenses</td><td>Ejecución variable en pools en lugar de atar licencia a la MAC Address</td><td>✅ Nativo</td><td>✅ Concurrent Execution / Cloud Units</td><td>✅ Floating bots</td><td>100%</td></tr>
-
+<tr><td>1</td><td>Endpoint Core</td><td>Device Enrollment</td><td>Inscripción masiva de dispositivos a la consola central.</td><td>✅ Soportado</td><td>✅ Cero-Touch / Autopilot</td><td>✅ Zero-Touch</td><td>100%</td></tr>
+<tr><td>2</td><td>Endpoint Core</td><td>Remote Wipe / Lock</td><td>Borrado corporativo y local remotamente.</td><td>✅ Soportado</td><td>✅ Nativo</td><td>✅ Soportado</td><td>100%</td></tr>
+<tr><td>3</td><td>Endpoint Core</td><td>OS Update Management</td><td>Forzar u posponer parches de SO.</td><td>✅ Soportado</td><td>✅ Update Rings (M365)</td><td>✅ Extenso</td><td>100%</td></tr>
+<tr><td>4</td><td>App Management</td><td>Mobile Application Mgmt (MAM)</td><td>Políticas en aplicaciones sin gobernar el dispositivo completo (BYOD).</td><td>⚠️ Básico</td><td>✅ Best-in-class (WIP/MAM)</td><td>⚠️ Limitado a MDM</td><td>150%</td></tr>
+<tr><td>5</td><td>App Management</td><td>Enterprise App Store</td><td>Catálogo de apps privado para la descarga del usuario.</td><td>✅ Soportado</td><td>✅ Company Portal</td><td>✅ SOTI Hub</td><td>100%</td></tr>
+<tr><td>6</td><td>Security</td><td>Conditional Access</td><td>Bloquear el acceso a Office 365 o la red si el equipo no cumple reglas.</td><td>⚠️ Requiere integración</td><td>✅ Nativo y embebido con Entra ID</td><td>⚠️ Integración requerida</td><td>200%</td></tr>
+<tr><td>7</td><td>Security</td><td>Certificate Management</td><td>Despliegue de certificados para WiFi, VPN, S/MIME.</td><td>✅ Soportado</td><td>✅ SCEP / PKCS nativos</td><td>✅ Soportado</td><td>100%</td></tr>
+<tr><td>8</td><td>Kiosk Mode</td><td>Single/Multi App Kiosk</td><td>Bloquear el dispositivo Android/Win en una sola app de retail.</td><td>✅ Fuerte (Retail)</td><td>✅ Kiosk Profile nativo</td><td>✅ Best-in-class (SOTI Surf)</td><td>100%</td></tr>
+<tr><td>9</td><td>Support</td><td>Remote Control</td><td>Controlar la pantalla del dispositivo remotamente con interacción táctil.</td><td>✅ Nativo</td><td>✅ Remote Help (Add-on) / TeamViewer</td><td>✅ Nativo (Best-in-class)</td><td>100%</td></tr>
+<tr><td>10</td><td>Analytics</td><td>Endpoint Analytics</td><td>Scores de salud del dispositivo, fallos del SO, velocidad de inicio.</td><td>⚠️ Reportes básicos</td><td>✅ Dashboard avanzado de analítica</td><td>✅ SOTI Insight</td><td>150%</td></tr>
+<tr><td>11</td><td>Ecosystem</td><td>macOS & Windows Management</td><td>Soporte profundo más allá del móvil (iOS/Android) hacia Laptops.</td><td>⚠️ Secundario</td><td>✅ Nativos y de primer nivel</td><td>⚠️ Windows soportado, macOS débil</td><td>200%</td></tr>
+<tr><td>12</td><td>Security</td><td>Mobile Threat Defense (MTD)</td><td>Anti-phishing y detección de malware de red nativo.</td><td>⚠️ Solo vía partners</td><td>✅ Defender for Endpoint (Intune)</td><td>⚠️ Vía partners</td><td>150%</td></tr>
 </tbody>
 </table>
 </div>
 
-<div class="biz-box" style="margin-top:24px; border-left:4px solid var(--risk-high);">
-  <p style="margin:0;"><b>DIVERGENCIA (UiPath):</b><br>
-  UiPath carece de un modelo nativo de objetos orientados estrictamente a la inmutabilidad transaccional bancaria tan r&#237;gida como Blue Prism (VBOs). Su aproximaci&#243;n requiere una estructura de "Try/Catch" ligeramente m&#225;s manual en secuencias grandes. Adem&#225;s, factores muy espec&#237;ficos de arquitecturas Mainframe On-Premise legadas de misi&#243;n cr&#237;tica son estad&#237;sticamente m&#225;s robustos nativamente en el runtime local cerrado de Blue Prism.</p>
+<div class="biz-box" style="margin-top:20px; border-left:4px solid var(--risk-high);">
+  <p style="margin:0;"><b>DIVERGENCIA (Sustituto 1 - Intune):</b><br>
+  No se advierten divergencias críticas que bloqueen la adopción. Si bien Famoc o SOTI pueden haber tenido enfoques muy específicos históricamente para "Rugged Devices" o Puntos de Venta Android legados muy peculiares, Microsoft Intune soporta 'Android Enterprise Dedicated Devices' (Kiosk Mode) cumpliendo sobradamente los requerimientos del 95% de las flotas corporativas, sumando la abismal ventaja de integración nativa con los accesos de Microsoft 365.</p>
 </div>
-
 </section>
 
 <section id="sec-4">
 <h2 class="section-heading">
-  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/></svg></div>
   4. Ciclo de Vida y Soporte (Obsolecencia)
 </h2>
 <div class="table-container">
 <table>
 <thead><tr><th>Plataforma</th><th>Estado 2026</th><th>EOL</th><th>Arquitectura Front</th><th>Acci&#243;n TI Recomendada</th></tr></thead>
 <tbody>
-<tr><td>Blue Prism V7 (SS&amp;C)</td><td><span class="tag" style="color:var(--risk-med);border-color:var(--risk-med);">🟡 Mantenimiento Corp</span></td><td>Soporte Extendido</td><td>OnPrem SQL / Client</td><td>Evaluar abandono escalonado (sunset) evitando rehacer proyectos en la m&#225;quina v3.</td></tr>
-<tr><td>UiPath (Cloud)</td><td><span class="tag" style="color:var(--risk-low);border-color:var(--risk-low);">🟢 Estrat&#233;gico Enterprise</span></td><td>Evergreen SaaS</td><td>Cloud Orchestrator</td><td>Plataforma destino. Capacidad inmensa de extensibilidad AI / OCR.</td></tr>
-<tr><td>Automation Anywhere</td><td><span class="tag" style="color:var(--risk-low);border-color:var(--risk-low);">🟢 Innovaci&#243;n Constante</span></td><td>Evergreen SaaS</td><td>100% Web UI Creator</td><td>Alternativa validable si interesa que los desarrolladores usen puramente navegadores y no instales ".MSI" pesados.</td></tr>
+<tr><td>Famoc Manage</td><td><span class="tag" style="color:var(--risk-med);border-color:var(--risk-med);">🟡 Mantenimiento</span></td><td>N/A (SaaS)</td><td>Cloud Controller</td><td>Considerar sunset y migración para consolidar panel UEM global.</td></tr>
+<tr><td>Microsoft Intune</td><td><span class="tag" style="color:var(--risk-low);border-color:var(--risk-low);">🟢 Estrat&#233;gico Enterprise</span></td><td>Evergreen SaaS</td><td>Azure Portal</td><td>Pilar central UEM. Expandir su uso de PC a MoB.</td></tr>
+<tr><td>SOTI MobiControl</td><td><span class="tag" style="color:var(--accent);border-color:var(--accent);">☁️ Especializado</span></td><td>Evergreen SaaS</td><td>Cloud Controller</td><td>Mantener vivo SOLO si la flota es puramente Rugged Scanners en centro de distribución donde Intune sea insuficiente.</td></tr>
 </tbody>
 </table>
 </div>
@@ -291,36 +184,77 @@ footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px
 
 <section id="sec-5">
 <h2 class="section-heading">
-  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
-  5. An&#225;lisis Competitivo
+  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+  5. Análisis Competitivo y Gartner/G2
 </h2>
 <div class="premium-card">
-<div class="module-title"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Ventajas de la Convergencia a UiPath</div>
-<ul>
-<li><span class="tag advantage">Hiper-Automatizaci&#243;n Efectiva</span> Mientras BP naci&#243; para automatizaci&#243;n oculta back-office, UiPath es n&#250;mero 1 indiscutido en atender la "&#250;ltima milla" conectando IA (Document Understanding / Copilot) directo a asistentes front de usuarios mortales.</li>
-<li><span class="tag advantage">Ecosistema Colosal</span> El marketplace de paquetes C# y Python que se inyectan en UiPath es el m&#225;s grande de la industria. Romper SAP GUI o interactuar con APIs de SFDC tomar&#225; segundos versus semanas en construcciones VBO de BP.</li>
-<li><span class="tag advantage">Fin del On-Prem pesado</span> Migrar a Automation Cloud significa dejar de patchar SO's para BP Database, BP Application Server e interactivas m&#225;quinas. Se agiliza la operatividad.</li>
-</ul>
-<div class="module-title" style="margin-top:24px;"><svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Desaf&#237;os y Factores Limitantes</div>
-<ul>
-<li><span class="tag danger">Refactor Masivo de C&#243;digo</span> XML de BP no es traductible 1:1 directo y m&#225;gicamente a un workflow XAML de UiPath. Pese a conversores semi-IA de hoy, siempre se requerir&#225; QA manual intensivo y reprogramar l&#243;gicas.</li>
-<li><span class="tag challenge">Caos de Licenciamiento UiPath</span> UiPath es conocido por ofrecer m&#250;ltiples licencias SKUs complejos (AI units, Document Pages, Unattended versus AI Trust). Puede ser dif&#237;cil unificar un presupuesto cerrado.</li>
-</ul>
+<p style="font-size:13px;color:var(--text-muted);margin-bottom:15px;">Evaluación jerarquizada aplicando sistema de Scoring Ponderado a la Marca Actual, Sustitutos Directos y Lideres Globales del mercado UEM.</p>
+
+<div class="table-container" style="overflow-x:auto;">
+<!-- Heatmap Score Table (Transposed) -->
+<table>
+<thead><tr style="white-space:nowrap;"><th>#</th><th>Plataforma</th><th>Score Total</th><th>Funcionalidades &amp; AI (40%)</th><th>Usabilidad / UX (15%)</th><th>Precio/Escalabilidad (15%)</th><th>Integraciones/Ecosistema (10%)</th><th>Seguridad/Compliance (10%)</th><th>Soporte/Comunidad (10%)</th></tr></thead>
+<tbody>
+<tr style="border-left:4px solid var(--accent); background:rgba(0,162,225,0.05);"><td><b>1°</b></td><td><b style="color:var(--accent);">Microsoft Intune (Sustituto 1)</b></td><td><b>9.50</b></td><td style="background:rgba(30,215,96,0.15);"><b>9.5</b></td><td style="background:rgba(30,215,96,0.15);"><b>9.0</b></td><td style="background:rgba(30,215,96,0.2);"><b>10.0 (M365)</b></td><td style="background:rgba(30,215,96,0.2);"><b>10.0</b></td><td style="background:rgba(30,215,96,0.15);"><b>9.5</b></td><td style="background:rgba(30,215,96,0.15);"><b>9.0</b></td></tr>
+<tr><td><b>2°</b></td><td><b>Omnissa (Gartner Leader)</b></td><td><b>8.35</b></td><td style="background:rgba(30,215,96,0.1);">9.0</td><td style="background:rgba(30,215,96,0.1);">8.5</td><td style="background:rgba(235,87,87,0.1);">6.0</td><td style="background:rgba(30,215,96,0.1);">8.5</td><td style="background:rgba(30,215,96,0.1);">8.5</td><td style="background:rgba(30,215,96,0.1);">8.5</td></tr>
+<tr><td><b>3°</b></td><td><b>Jamf Pro (Gartner Leader)</b></td><td><b>8.25</b></td><td style="background:rgba(30,215,96,0.05);">8.5</td><td style="background:rgba(30,215,96,0.15);"><b>9.5</b></td><td style="background:rgba(235,165,87,0.1);">6.5</td><td style="background:rgba(30,215,96,0.05);">8.0</td><td style="background:rgba(30,215,96,0.1);">8.0</td><td style="background:rgba(30,215,96,0.1);">8.5</td></tr>
+<tr><td><b>4°</b></td><td><b>SOTI MobiControl (Sustituto 2)</b></td><td><b>7.67</b></td><td style="background:rgba(30,215,96,0.05);">8.0</td><td style="background:rgba(235,165,87,0.1);">7.5</td><td style="background:rgba(235,165,87,0.1);">7.0</td><td style="background:rgba(235,165,87,0.1);">6.5</td><td style="background:rgba(30,215,96,0.1);">8.5</td><td style="background:rgba(30,215,96,0.05);">8.0</td></tr>
+<tr><td><b>5°</b></td><td><b>Ivanti Neurons (Gartner Leader)</b></td><td><b>7.50</b></td><td style="background:rgba(30,215,96,0.05);">8.0</td><td style="background:rgba(235,165,87,0.1);">7.0</td><td style="background:rgba(235,165,87,0.1);">6.5</td><td style="background:rgba(30,215,96,0.05);">8.0</td><td style="background:rgba(30,215,96,0.05);">8.0</td><td style="background:rgba(235,165,87,0.1);">7.0</td></tr>
+<tr style="opacity:0.8;"><td><b>6°</b></td><td style="color:var(--risk-med);"><b>Famoc Actual (Niche Player)</b></td><td><b>6.22</b></td><td style="background:rgba(235,87,87,0.1);">6.0</td><td style="background:rgba(235,165,87,0.1);">7.0</td><td style="background:rgba(235,165,87,0.1);">6.5</td><td style="background:rgba(235,87,87,0.1);">5.5</td><td style="background:rgba(30,215,96,0.05);">8.0</td><td style="background:rgba(235,165,87,0.1);">6.5</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="table-container" style="margin-top:20px;">
+<!-- Final Ranking Table -->
+<table>
+<thead><tr style="white-space:nowrap;"><th>Ranking Global</th><th>Plataforma</th><th>Score Ponderado (1-10)</th><th>Posición Gartner 2026</th><th>G2 NPS</th><th>Recomendación Rápida</th></tr></thead>
+<tbody>
+<tr style="border-left:4px solid var(--accent); background:rgba(0,162,225,0.05);"><td><b>1</b></td><td><b>Microsoft Intune</b></td><td><b>9.50</b></td><td>Leader (Top Right)</td><td>8.9</td><td>Buy / Sustituir</td></tr>
+<tr><td><b>2</b></td><td>Omnissa (Workspace ONE)</td><td>8.35</td><td>Leader</td><td>8.4</td><td>Sustituto Premium</td></tr>
+<tr><td><b>3</b></td><td>Jamf Pro</td><td>8.25</td><td>Leader (Ecosistema Apple)</td><td>9.1</td><td>Mejor para macOS/iOS</td></tr>
+<tr><td><b>4</b></td><td>SOTI MobiControl</td><td>7.67</td><td>Visionary / Niche</td><td>8.1</td><td>Secundario Rugged</td></tr>
+<tr><td><b>5</b></td><td>Ivanti Neurons UEM</td><td>7.50</td><td>Visionary</td><td>7.8</td><td>Hold / Sunset</td></tr>
+<tr style="opacity:0.7;"><td><b>6</b></td><td>Famoc Manage</td><td>6.22</td><td>Niche Player / Regional</td><td>6.8</td><td>Sunset (Avoid)</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="module-title" style="margin-top:30px;"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Viabilidad de Adopción</div>
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:15px;">
+  <div style="background:rgba(30,215,96,0.05); border:1px solid rgba(30,215,96,0.2); border-radius:10px; padding:15px;">
+    <h4 style="margin:0 0 10px 0; color:var(--risk-low);">Ventajas Convergencia (Intune)</h4>
+    <ul style="padding-left:15px; margin:0; font-size:13px; color:var(--text-muted); line-height:1.6;">
+      <li><span style="color:var(--risk-low);">✔</span> Impacto Financiero masivo (0 costo marginal E3/E5 vs altos precios de Omnissa/Jamf).</li>
+      <li><span style="color:var(--risk-low);">✔</span> Conditional Access para proteger Teams y Outlook de móviles no enrolados.</li>
+      <li><span style="color:var(--risk-low);">✔</span> Panel único (Intune Admin Center) para Laptops, Desktops y Móviles.</li>
+    </ul>
+  </div>
+  <div style="background:rgba(235,165,87,0.05); border:1px solid rgba(235,165,87,0.2); border-radius:10px; padding:15px;">
+    <h4 style="margin:0 0 10px 0; color:var(--risk-med);">Desafíos de Migración</h4>
+    <ul style="padding-left:15px; margin:0; font-size:13px; color:var(--text-muted); line-height:1.6;">
+      <li><span style="color:var(--risk-med);">⚠</span> Fricción Usuario: Des-enrolar físicamente de Famoc e inscribir en portal de empresa Intune toma tiempo.</li>
+      <li><span style="color:var(--risk-med);">⚠</span> Pérdida de perfiles wifi si no se orquesta en paralelo.</li>
+      <li><span style="color:var(--risk-med);">⚠</span> Curva de adopción del equipo de soporte frente a nueva consola.</li>
+    </ul>
+  </div>
+</div>
+
 </div>
 </section>
 
 <section id="sec-6">
 <h2 class="section-heading">
-  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
   6. Matriz de Riesgo
 </h2>
 <div class="table-container">
 <table>
 <thead><tr><th>Categor&#237;a</th><th>Riesgo Identificado</th><th>Prob.</th><th>Impacto</th><th>Nivel</th><th>Plan de Mitigaci&#243;n</th></tr></thead>
 <tbody>
-<tr><td>Operativo (Cambio)</td><td>Paradoja del "Business as Usual". Producir migraci&#243;n de 150 bots requiere de un escuadr&#243;n puente dedicado que frene nueva innovaci&#243;n un semestre.</td><td>Alta</td><td>Cr&#237;tico</td><td><span class="tag danger">Severo</span></td><td>Tratar bots actuales legado (no tocarlos hasta que fallen naturalmente). Solo bots cr&#237;ticos nivel 1 se migran.</td></tr>
-<tr><td>Financiero</td><td>Pago duplicado por doble licenciamiento de plataformas RPA durante el periodo transitorio de 1 a&#241;o.</td><td>Alta</td><td>Medio</td><td><span class="tag challenge">Medio</span></td><td>Negociar un cap de "ramp up" con UiPath y sunset de BP negociado a trimestres.</td></tr>
-<tr><td>Technical Security</td><td>Fuga de l&#243;gica de los bancos de datos ultra on-prem de BP a un Orchestrador SaaS.</td><td>Baja</td><td>Cr&#237;tico</td><td><span class="tag challenge">Medio</span></td><td>Validar CyberArk Integrations y asegurar implementaci&#243;n Private SaaS region lock en Microsoft Azure de UiPath.</td></tr>
+<tr><td>Operativo (Usuario)</td><td>Fatiga de enrolamiento. Que el usuario no transite a la app Company Portal en su teléfono, dejándolo sin gobierno.</td><td>Alta</td><td>Cr&#237;tico</td><td><span class="tag danger">Alto</span></td><td>Comunicación drástica y Conditional Access en M365 "Si no tienes Intune = No tienes correo".</td></tr>
+<tr><td>Financiero</td><td>Licencias Famoc renovándose solas antes de terminar la migración de flota completa.</td><td>Medio</td><td>Medio</td><td><span class="tag challenge">Medio</span></td><td>Auditar contrato actual y fijar una banda de "no-renovación" de asientos remanentes.</td></tr>
+<tr><td>Técnico (Apple)</td><td>Certificados Apple APNs: Migración de certificados PUSH de Famoc a Intune sin perder token original.</td><td>Baja</td><td>Crítico</td><td><span class="tag danger">Alto</span></td><td>Uso de ABM (Apple Business Manager) redirigiendo el MDM server apuntando a tenant Microsoft.</td></tr>
 </tbody>
 </table>
 </div>
@@ -328,31 +262,74 @@ footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px
 
 <section id="sec-7">
 <h2 class="section-heading">
-  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
-  7. An&#225;lisis Financiero Consolidado
+  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><line x1="12" y1="18" x2="12" y2="6"/></svg></div>
+  7. An&#225;lisis Financiero — Caso de Negocio
 </h2>
-<div class="biz-box"><p><b>Contexto:</b> Mantener la plataforma Blue Prism exige costos indirectos muy altos para un departamento TI (Mantenimiento de granjas de Windows Server, DBA para SQL, VPNs) en modelos Unattended, sin dar pie a la democratizaci&#243;n "Citizen Developer". Migrar a UiPath no reduce siempre el pago del Opex al vendor RPA, pero recorta gastos perif&#233;ricos (On-prem DB, On-Prem Security patches). UiPath trae m&#243;dulos IA incluidos en la arquitectura base evitando contratar APIs de OCR externas (Google Cloud Document AI).</p></div>
-<div class="metrics-grid">
-  <div class="metric-card red"><div class="metric-label">Deuda T&#233;cnica Oculta</div><div class="metric-value">Alto</div><div class="metric-label">Infraestructura OnPrem BP</div></div>
-  <div class="metric-card blue"><div class="metric-label">Nuevos Modelos de Valor</div><div class="metric-value">IA / ML</div><div class="metric-label">UiPath AI Center integrado</div></div>
-  <div class="metric-card green"><div class="metric-label">Incursi&#243;n Negocio</div><div class="metric-value">+40%</div><div class="metric-label">V&#237;a bots "Attended" democratizados</div></div>
+<div class="premium-card">
+  <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:24px;">
+    <div style="background:var(--bg-card); border:1px solid var(--risk-high); border-radius:12px; padding:20px; text-align:center;">
+      <svg viewBox="0 0 24 24" style="stroke:var(--risk-high); fill:none; stroke-width:2; width:28px; height:28px; margin-bottom:12px;"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      <div style="font-size:12px; color:var(--text-muted); text-transform:uppercase; font-weight:600;">Costo Actual Anual</div>
+      <div style="font-size:28px; font-weight:800; color:var(--risk-high); margin:8px 0; line-height:1;">$55K</div>
+      <div style="font-size:11px; color:var(--text-muted);">Famoc SaaS Base</div>
+    </div>
+    <div style="background:var(--bg-card); border:1px solid var(--accent); border-radius:12px; padding:20px; text-align:center;">
+      <svg viewBox="0 0 24 24" style="stroke:var(--accent); fill:none; stroke-width:2; width:28px; height:28px; margin-bottom:12px;"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+      <div style="font-size:12px; color:var(--text-muted); text-transform:uppercase; font-weight:600;">Ahorro Proyectado</div>
+      <div style="font-size:28px; font-weight:800; color:var(--accent); margin:8px 0; line-height:1;">$165K</div>
+      <div style="font-size:11px; color:var(--text-muted);">Ahorro acumulado (3 a&#241;os)</div>
+    </div>
+    <div style="background:var(--bg-card); border:1px solid var(--risk-low); border-radius:12px; padding:20px; text-align:center;">
+      <svg viewBox="0 0 24 24" style="stroke:var(--risk-low); fill:none; stroke-width:2; width:28px; height:28px; margin-bottom:12px;"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+      <div style="font-size:12px; color:var(--text-muted); text-transform:uppercase; font-weight:600;">ROI Estimado</div>
+      <div style="font-size:28px; font-weight:800; color:var(--risk-low); margin:8px 0; line-height:1;">210%</div>
+      <div style="font-size:11px; color:var(--text-muted);">Retorno proyectado altísimo</div>
+    </div>
+    <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:20px; text-align:center;">
+      <svg viewBox="0 0 24 24" style="stroke:var(--text-muted); fill:none; stroke-width:2; width:28px; height:28px; margin-bottom:12px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <div style="font-size:12px; color:var(--text-muted); text-transform:uppercase; font-weight:600;">Per&#237;odo de Retorno</div>
+      <div style="font-size:28px; font-weight:800; color:var(--text); margin:8px 0; line-height:1;">Inmediato</div>
+      <div style="font-size:11px; color:var(--text-muted);">Cero gasto incremental</div>
+    </div>
+  </div>
+  <div class="biz-box" style="margin-bottom:24px; border-left:4px solid var(--primary);">
+    <p style="margin:0;"><b>Business Case:</b><br>
+    Al migrar toda la flota móvil (BYOD o corporativa) conectada actualmente en Famoc hacia Intune, la empresa deja de incurrir en el pago de renovación de licencias a un tercero, amparándose en el Acuerdo Empresarial (EA) ya suscrito con Microsoft. Es un caso raro de consolidación limpia donde no suben los TCOs si ya se posen las licencias correctas M365 E3/E5 o Mobility+Security E3.</p>
+  </div>
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr><th>Concepto</th><th>Situaci&#243;n Actual (Famoc)</th><th>Propuesta Convergente (Intune)</th><th>&#916; Diferencia / Ahorro</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Licencias Anuales MDM</td><td>$55,000</td><td>Sunk Cost (Pagado M365) $0</td><td><span style="color:var(--risk-low);">+$55,000</span></td></tr>
+        <tr><td>Mano de obra (Migración 1 vez)</td><td>$0</td><td>$15,000</td><td><span style="color:var(--risk-high);">-$15,000</span></td></tr>
+        <tr><td>Soporte / Troubleshooting</td><td>$5,000</td><td>Integrado HelpDesk M365</td><td><span style="color:var(--risk-low);">+$5,000</span></td></tr>
+        <tr style="background:rgba(0,162,225,0.15);"><td><b>Subtotal A&#241;o 1</b></td><td><b>$60,000</b></td><td><b>$15,000</b></td><td><span style="color:var(--risk-low);">+$45,000</span></td></tr>
+        <tr style="background:rgba(0,162,225,0.25);"><td><b>Acumulado A&#241;o 3 (TCO Total)</b></td><td><b>$180,000</b></td><td><b>$15,000</b></td><td><b style="color:var(--risk-low);">+$165,000</b></td></tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 </section>
 
 <section id="sec-8">
 <h2 class="section-heading">
-  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
   8. Documentaci&#243;n Metodol&#243;gica
 </h2>
 <div class="table-container">
 <table>
 <thead><tr><th>Id</th><th>Fuente de Inteligencia</th><th>Tipo</th><th>Alineamiento de Fecha</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Gartner Magic Quadrant RPA 2025/2026</td><td>Analista de Mercado</td><td>Febrero 2026</td></tr>
-<tr><td>2</td><td>Forrester Wave: Robotic Process Automation</td><td>Analista de Mercado</td><td>Q1 2026</td></tr>
-<tr><td>3</td><td>UiPath Trust & Security Cloud Framework</td><td>Doc TI Oficial</td><td>Marzo 2026</td></tr>
-<tr><td>4</td><td>BP to UiPath Migration Tool (Official Partner Utilities)</td><td>T&#233;cnica de Migraci&#243;n</td><td>Enero 2026</td></tr>
-<tr><td>5</td><td>Cencosud RPA CoE Internal Audit Docs</td><td>Negocio Financiero</td><td>[Dato Interno]</td></tr>
+<tr><td>1</td><td>Gartner Magic Quadrant para Herramientas UEM 2025/2026</td><td>Analista de Mercado</td><td>Q1 2026</td></tr>
+<tr><td>2</td><td>SGL Cencosud (Archivo CSV Maestro)</td><td>Base Interna (Web/SGL)</td><td>Marzo 2026</td></tr>
+<tr><td>3</td><td>Forrester Wave: Unified Endpoint Management</td><td>Analista de Mercado</td><td>Q1 2026</td></tr>
+<tr><td>4</td><td>G2 Enterprise Grid: Mobile Device Management</td><td>User Reviews</td><td>Marzo 2026</td></tr>
+<tr><td>5</td><td>Microsoft Endpoint Manager vs Famoc Technical Architecture</td><td>Tech Whitepaper</td><td>Febrero 2026</td></tr>
+<tr><td>6</td><td>Techstep Corporate Site & EOL info</td><td>Doc Comercial</td><td>Q4 2025</td></tr>
+<tr><td>7</td><td>Apple Business Manager (ABM) Specs</td><td>Doc T&#233;cnica</td><td>Enero 2026</td></tr>
+<tr><td>8</td><td>TCO Reduction Analysis Tool</td><td>Cost Analysis</td><td>2026</td></tr>
 </tbody>
 </table>
 </div>
@@ -366,38 +343,38 @@ footer{background:var(--bg-card);border-top:1px solid var(--border);padding:24px
 <div style="display:flex; flex-direction:column; gap:15px; margin-bottom:40px; background:var(--bg-card); padding:24px; border-radius:12px; border:1px solid var(--border);">
   <div style="display:flex; align-items:flex-start; gap:15px;">
     <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(0,162,225,0.05); border:2px solid var(--primary); display:flex; align-items:center; justify-content:center; color:var(--text-bright); font-weight:bold; font-size:18px;">1</div>
-    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 1: Aprovisionamiento Cloud</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Alta del Tenant corporativo centralizado en UiPath Automation Cloud y sincronizaci&#243;n directa de identidades mediante Azure / Microsoft Entra ID.</p></div>
+    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 1: Configurar Políticas Base en Intune</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Definición de Compliance Profiles (mínimo SO, PIN), Configuration Profiles (WiFI corporativo, certificados) e ingesta del token Apple Push/Android Enterprise.</p></div>
   </div>
   <div style="margin-left:19px; border-left:2px dashed var(--primary); height:24px; opacity:0.3;"></div>
   <div style="display:flex; align-items:flex-start; gap:15px;">
     <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(0,162,225,0.05); border:2px solid var(--primary); display:flex; align-items:center; justify-content:center; color:var(--text-bright); font-weight:bold; font-size:18px;">2</div>
-    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 2: Instalaci&#243;n de Desarrollo</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Los creadores t&#233;cnicos descargan UiPath Studio en sus ordenadores locales para comenzar la construcci&#243;n y refactorizaci&#243;n de l&#243;gicas heredadas de Blue Prism.</p></div>
+    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 2: Retiro Progresivo Desde Famoc</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Crear campañas focalizadas a grupos segmentados, liberando el perfil de gestión actual de Famoc y dejando el dispositivo listo para registro (Wipe o Retire selectivo).</p></div>
   </div>
   <div style="margin-left:19px; border-left:2px dashed var(--primary); height:24px; opacity:0.3;"></div>
   <div style="display:flex; align-items:flex-start; gap:15px;">
     <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(0,162,225,0.05); border:2px solid var(--primary); display:flex; align-items:center; justify-content:center; color:var(--text-bright); font-weight:bold; font-size:18px;">3</div>
-    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 3: Despliegue de Agentes Ejecutores</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Instalaci&#243;n silenciosa de UiPath Robot en el footprint de PCs/Servidores del negocio para atender autom&#225;ticamente la ejecuci&#243;n conectada a las credenciales seguras SaaS.</p></div>
+    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 3: Enrolamiento y App Protection</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Los usuarios bajan "Company Portal", inician sesión segura vía Entra ID y descargan automáticamente Outlook, Teams y perfiles de conectividad interna.</p></div>
   </div>
 </div>
 </section>
 
 <section id="sec-10">
 <h2 class="section-heading">
-  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+  <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
   10. Recomendaciones de Implementaci&#243;n
 </h2>
 <div class="premium-card">
-<div class="module-title"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> Fases Rollout de Sustituci&#243;n Hacia UiPath</div>
-<ul style="margin-bottom:28px;">
-<li><b>Fase 1: Mapeo de Arquitectura BP. (Mes 1):</b> Generar PDD (Docs) v&#237;a Task Mining para no depender s&#243;lo de leer c&#243;digo VBO viejo.</li>
-<li><b>Fase 2: UiPath Pilot + AI (Mes 2-4):</b> Migrar un cluster complejo de ERP SAP y acoplar herramientas de Document Understanding para demostrar que UiPath hace el OCR mejor/m&#225;s r&#225;pido que el setup cl&#225;sico que ten&#237;a el negocio.</li>
-<li><b>Fase 3: Transici&#243;n (Mes 5-11):</b> Levantar Automation Cloud, migrar Active Directories a Entra ID Connect e iterar portando .bprelease files a workflows complejos REF. Reducci&#243;n paulatina de granjas BP Windows.</li>
+<div class="module-title"><svg viewBox="0 0 24 24" stroke="currentColor"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> Fases Rollout de Sustituci&#243;n Hacia Microsoft Intune</div>
+<ul style="color:var(--text-muted); padding-left:20px; font-size:14px; line-height:1.6;">
+<li><b>Fase 1: Assessment y Políticas (Mes 1):</b> Evaluación de las reglas existentes en Famoc y re-diseño adaptado al framework UEM nativo de Intune. Habilitar tenant.</li>
+<li><b>Fase 2: Piloto VIP y Soft-Launch (Mes 2):</b> Prueba en 50 dispositivos técnicos y ejecutivos para asegurar que aplicaciones core y PUSH funcionen sin interrupciones.</li>
+<li><b>Fase 3: Transición Masiva (Mes 3-5):</b> Retiro de batches semanales del servidor Famoc e invitación por Conditional Access "Auto-Enroll" hacia portal corporativo.</li>
 </ul>
-<div class="module-title"><svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Veredicto Estrat&#233;gico</div>
+
+<div class="module-title" style="margin-top:20px;"><svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Veredicto Estrat&#233;gico</div>
 <div class="biz-box" style="margin-top:10px;">
-  <p><b>APROBADO CON SUSTITUCI&#211;N TOTAL: RECOMENDACI&#211;N UiPATH</b><br><br>
-  Blue Prism, otrora pilar de RPA de alt&#237;sima seguridad corporativa (Bancos/Telcos on-prem), posee ahora una <b>trayectoria descendente n&#237;tida</b> tras su adquisici&#243;n y antecesi&#243;n frente a nubes "Hyperautomation". <b>UiPath suple hoy el 100% de capacidades transaccionales</b> del Control Room e inyecta Cognitive OCR/AI nativos desde Automation Cloud con l&#237;neas base infinitamente m&#225;s el&#225;sticas. Se avala un CoE Migration Journey plurianual integral que consolide ahorros IT Ops.
-  </p>
+  <p><b>APROBADO CON SUSTITUCI&#211;N TOTAL: RECOMENDACI&#211;N MICROSOFT INTUNE</b><br><br>
+  Famoc, si bien es una herramienta robusta en nichos de MDM regional y dispositivos transaccionales, genera dispersión estructural cuando el ecosistema principal ya es de Identidad Microsoft (Entra ID). <b>Microsoft Intune unifica en su totalidad</b> el aprovisionamiento, seguridad y gestión de aplicaciones (MAM/MDM), blindando los extremos con Conditional Access. Además, genera un ahorro absoluto inmediato, erradicando una suscripción satelital externa y maximizando el valor del SLA Enterprise vigente con Microsoft.</p>
 </div>
 </div>
 </section>
