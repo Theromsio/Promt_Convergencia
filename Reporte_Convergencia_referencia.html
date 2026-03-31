@@ -4,7 +4,7 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Informe de Convergencia Famoc | Cencosud S.A.</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Theromsio/Promt_Convergencia@main/cencosud_premium.css">
+<link rel="stylesheet" href="cencosud_premium.css">
 </head>
 <body>
 <div class="app-layout">
@@ -221,18 +221,18 @@
 </div>
 
 <div class="module-title" style="margin-top:30px;"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Viabilidad de Adopción</div>
-<div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:15px;">
-  <div style="background:rgba(30,215,96,0.05); border:1px solid rgba(30,215,96,0.2); border-radius:10px; padding:15px;">
-    <h4 style="margin:0 0 10px 0; color:var(--risk-low);">Ventajas Convergencia (Intune)</h4>
-    <ul style="padding-left:15px; margin:0; font-size:13px; color:var(--text-muted); line-height:1.6;">
+<div class="viability-grid">
+  <div class="viability-card pro">
+    <h4>Ventajas Convergencia (Intune)</h4>
+    <ul class="viability-list">
       <li><span style="color:var(--risk-low);">✔</span> Impacto Financiero masivo (0 costo marginal E3/E5 vs altos precios de Omnissa/Jamf).</li>
       <li><span style="color:var(--risk-low);">✔</span> Conditional Access para proteger Teams y Outlook de móviles no enrolados.</li>
       <li><span style="color:var(--risk-low);">✔</span> Panel único (Intune Admin Center) para Laptops, Desktops y Móviles.</li>
     </ul>
   </div>
-  <div style="background:rgba(235,165,87,0.05); border:1px solid rgba(235,165,87,0.2); border-radius:10px; padding:15px;">
-    <h4 style="margin:0 0 10px 0; color:var(--risk-med);">Desafíos de Migración</h4>
-    <ul style="padding-left:15px; margin:0; font-size:13px; color:var(--text-muted); line-height:1.6;">
+  <div class="viability-card con">
+    <h4>Desafíos de Migración</h4>
+    <ul class="viability-list">
       <li><span style="color:var(--risk-med);">⚠</span> Fricción Usuario: Des-enrolar físicamente de Famoc e inscribir en portal de empresa Intune toma tiempo.</li>
       <li><span style="color:var(--risk-med);">⚠</span> Pérdida de perfiles wifi si no se orquesta en paralelo.</li>
       <li><span style="color:var(--risk-med);">⚠</span> Curva de adopción del equipo de soporte frente a nueva consola.</li>
@@ -266,30 +266,30 @@
   7. An&#225;lisis Financiero — Caso de Negocio
 </h2>
 <div class="premium-card">
-  <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:24px;">
-    <div style="background:var(--bg-card); border:1px solid var(--risk-high); border-radius:12px; padding:20px; text-align:center;">
-      <svg viewBox="0 0 24 24" style="stroke:var(--risk-high); fill:none; stroke-width:2; width:28px; height:28px; margin-bottom:12px;"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-      <div style="font-size:12px; color:var(--text-muted); text-transform:uppercase; font-weight:600;">Costo Actual Anual</div>
-      <div style="font-size:28px; font-weight:800; color:var(--risk-high); margin:8px 0; line-height:1;">$55K</div>
-      <div style="font-size:11px; color:var(--text-muted);">Famoc SaaS Base</div>
+  <div class="kpi-grid">
+    <div class="kpi-card risk-high">
+      <svg viewBox="0 0 24 24"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      <div class="kpi-title">Costo Actual Anual</div>
+      <div class="kpi-value">$55K</div>
+      <div class="kpi-sub">Famoc SaaS Base</div>
     </div>
-    <div style="background:var(--bg-card); border:1px solid var(--accent); border-radius:12px; padding:20px; text-align:center;">
-      <svg viewBox="0 0 24 24" style="stroke:var(--accent); fill:none; stroke-width:2; width:28px; height:28px; margin-bottom:12px;"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
-      <div style="font-size:12px; color:var(--text-muted); text-transform:uppercase; font-weight:600;">Ahorro Proyectado</div>
-      <div style="font-size:28px; font-weight:800; color:var(--accent); margin:8px 0; line-height:1;">$165K</div>
-      <div style="font-size:11px; color:var(--text-muted);">Ahorro acumulado (3 a&#241;os)</div>
+    <div class="kpi-card accent">
+      <svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+      <div class="kpi-title">Ahorro Proyectado</div>
+      <div class="kpi-value">$165K</div>
+      <div class="kpi-sub">Ahorro acumulado (3 a&#241;os)</div>
     </div>
-    <div style="background:var(--bg-card); border:1px solid var(--risk-low); border-radius:12px; padding:20px; text-align:center;">
-      <svg viewBox="0 0 24 24" style="stroke:var(--risk-low); fill:none; stroke-width:2; width:28px; height:28px; margin-bottom:12px;"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-      <div style="font-size:12px; color:var(--text-muted); text-transform:uppercase; font-weight:600;">ROI Estimado</div>
-      <div style="font-size:28px; font-weight:800; color:var(--risk-low); margin:8px 0; line-height:1;">210%</div>
-      <div style="font-size:11px; color:var(--text-muted);">Retorno proyectado altísimo</div>
+    <div class="kpi-card risk-low">
+      <svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+      <div class="kpi-title">ROI Estimado</div>
+      <div class="kpi-value">210%</div>
+      <div class="kpi-sub">Retorno proyectado altísimo</div>
     </div>
-    <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:20px; text-align:center;">
-      <svg viewBox="0 0 24 24" style="stroke:var(--text-muted); fill:none; stroke-width:2; width:28px; height:28px; margin-bottom:12px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-      <div style="font-size:12px; color:var(--text-muted); text-transform:uppercase; font-weight:600;">Per&#237;odo de Retorno</div>
-      <div style="font-size:28px; font-weight:800; color:var(--text); margin:8px 0; line-height:1;">Inmediato</div>
-      <div style="font-size:11px; color:var(--text-muted);">Cero gasto incremental</div>
+    <div class="kpi-card neutral">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <div class="kpi-title">Per&#237;odo de Retorno</div>
+      <div class="kpi-value">Inmediato</div>
+      <div class="kpi-sub">Cero gasto incremental</div>
     </div>
   </div>
   <div class="biz-box" style="margin-bottom:24px; border-left:4px solid var(--primary);">
@@ -340,20 +340,20 @@
   <div class="section-icon-wrap"><svg viewBox="0 0 24 24"><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><rect x="6" y="2" width="12" height="8" rx="2" ry="2"/><line x1="12" y1="10" x2="12" y2="14"/></svg></div>
   9. Diagrama de Instalaci&#243;n
 </h2>
-<div style="display:flex; flex-direction:column; gap:15px; margin-bottom:40px; background:var(--bg-card); padding:24px; border-radius:12px; border:1px solid var(--border);">
-  <div style="display:flex; align-items:flex-start; gap:15px;">
-    <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(0,162,225,0.05); border:2px solid var(--primary); display:flex; align-items:center; justify-content:center; color:var(--text-bright); font-weight:bold; font-size:18px;">1</div>
-    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 1: Configurar Políticas Base en Intune</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Definición de Compliance Profiles (mínimo SO, PIN), Configuration Profiles (WiFI corporativo, certificados) e ingesta del token Apple Push/Android Enterprise.</p></div>
+<div class="timeline-container">
+  <div class="timeline-step">
+    <div class="timeline-badge">1</div>
+    <div class="timeline-content"><h4>Paso 1: Configurar Políticas Base en Intune</h4><p>Definición de Compliance Profiles (mínimo SO, PIN), Configuration Profiles (WiFI corporativo, certificados) e ingesta del token Apple Push/Android Enterprise.</p></div>
   </div>
-  <div style="margin-left:19px; border-left:2px dashed var(--primary); height:24px; opacity:0.3;"></div>
-  <div style="display:flex; align-items:flex-start; gap:15px;">
-    <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(0,162,225,0.05); border:2px solid var(--primary); display:flex; align-items:center; justify-content:center; color:var(--text-bright); font-weight:bold; font-size:18px;">2</div>
-    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 2: Retiro Progresivo Desde Famoc</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Crear campañas focalizadas a grupos segmentados, liberando el perfil de gestión actual de Famoc y dejando el dispositivo listo para registro (Wipe o Retire selectivo).</p></div>
+  <div class="timeline-line"></div>
+  <div class="timeline-step">
+    <div class="timeline-badge">2</div>
+    <div class="timeline-content"><h4>Paso 2: Retiro Progresivo Desde Famoc</h4><p>Crear campañas focalizadas a grupos segmentados, liberando el perfil de gestión actual de Famoc y dejando el dispositivo listo para registro (Wipe o Retire selectivo).</p></div>
   </div>
-  <div style="margin-left:19px; border-left:2px dashed var(--primary); height:24px; opacity:0.3;"></div>
-  <div style="display:flex; align-items:flex-start; gap:15px;">
-    <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(0,162,225,0.05); border:2px solid var(--primary); display:flex; align-items:center; justify-content:center; color:var(--text-bright); font-weight:bold; font-size:18px;">3</div>
-    <div><h4 style="margin:0 0 5px 0; color:var(--text-bright);">Paso 3: Enrolamiento y App Protection</h4><p style="margin:0; font-size:13px; color:var(--text-muted); line-height:1.5;">Los usuarios bajan "Company Portal", inician sesión segura vía Entra ID y descargan automáticamente Outlook, Teams y perfiles de conectividad interna.</p></div>
+  <div class="timeline-line"></div>
+  <div class="timeline-step">
+    <div class="timeline-badge">3</div>
+    <div class="timeline-content"><h4>Paso 3: Enrolamiento y App Protection</h4><p>Los usuarios bajan "Company Portal", inician sesión segura vía Entra ID y descargan automáticamente Outlook, Teams y perfiles de conectividad interna.</p></div>
   </div>
 </div>
 </section>
