@@ -11,6 +11,7 @@ Adobe;Photoshop Enterprise (Single Apps);Suscripción;usuario;450,0000;USD
 Adobe;Acrobat Studio;Suscripción;usuario;186,0000;USD
 Adobe;Illustrator Enterprise (Single Apps);Suscripción;usuario;445,4500;USD
 Atlassian;Issue Checklist for Jira. Pro;Suscripción;usuario;5,0600;USD
+Atlassian;Confluence (Cloud) Standard;Suscripción;usuario;19397,0000;CLP
 Atlassian;Jira (Cloud) Enterprise;Suscripción;usuario;140,5800;USD
 Autodesk;AutoCAD LT Comercial New Single-User Subcription;Suscripción;usuario;6155,0000;BRL
 Google;Google Analytics 360 G4;Suscripción;Eventos por mes;160560,0000;USD
@@ -20,86 +21,96 @@ Google;Review Management;Suscripción;Servidores;83,0200;USD
 Google;Competitive  Benchmark;Suscripción;Servidores;53,5000;USD
 IBM;IBM MQ Processor Value Unit (PVU) Annual SW Subscription & Support Renewal;Suscripción;PVU;29,7200;USD
 IBM;IBM Planning Analytics;Suscripción;usuario;20086000,0000;CLP
-Microsoft;SQLSvrStdCore ALNG LicSAPk MVL 2Lic CoreLic;Perpétua;Core;3047,4400;USD
-Microsoft;SQLSvrStdCore ALNG LicSAPk MVL 2Lic CoreLic;Perpétua;Core;3601,5100;USD
-Microsoft;SQLSvrStdCore ALNG LicSAPk MVL 2Lic CoreLic;Perpétua;Core;23185,0000;BRL
-Microsoft;SQLSvrStdCore ALNG LicSAPk MVL 2Lic CoreLic;Perpétua;Core;4500,0000;USD
+Microsoft;SQLSvrStdCore ALNG LicSAPk MVL 2Lic CoreLic;Perpétua;Core-Based;3047,4400;USD
+Microsoft;SQLSvrStdCore ALNG LicSAPk MVL 2Lic CoreLic;Perpétua;Core-Based;3601,5100;USD
+Microsoft;SQLSvrStdCore ALNG LicSAPk MVL 2Lic CoreLic;Perpétua;Core-Based;23185,0000;BRL
+Microsoft;SQLSvrStdCore ALNG LicSAPk MVL 2Lic CoreLic;Perpétua;Core-Based;4500,0000;USD
 Microsoft;Power Apps per app plan;Suscripción;usuario;52,8000;USD
-Microsoft;Power Apps per User plan;Suscripción;Cantidad/Usuario;211,2000;USD
+Microsoft;Power Apps per User plan;Suscripción;Named User;211,2000;USD
+Microsoft;Exchange Online P1 Sub Per User;Suscripción;usuario;3,0000;USD
+Microsoft;Power BI Pro Sub Per User;Suscripción;usuario;7,0000;USD
+Microsoft;Project P3 Sub Per User;Suscripción;usuario;269,0000;USD
+Microsoft;Visual Studio Pro MSDN ALng SA;Suscripción;usuario;349,0000;USD
+Microsoft;Win Server Standard Core ALng SA 2L;Suscripción;Core-Based;25,0000;USD
 Microsoft;Power Automate Process Sub;Suscripción;Dispositivo;726,0000;USD
-Microsoft;M365 F3 FUSL Sub Per User;Suscripción;Cantidad/Usuario;41,0400;USD
+Microsoft;M365 E5 Unified Existing Customer Sub Per User;Suscripción;usuario;41,0000;USD
+Microsoft;M365 E3 Unified Existing Customer Sub Per User - Makro;Suscripción;usuario;26,0000;USD
+Microsoft;M365 Copilot Sub Add-on - makro;Suscripción;usuario;30,0000;USD
+Microsoft;Visio P1 Sub Per User;Suscripción;No aplica;45,0000;USD
+Microsoft;M365 F3 FUSL Sub Per User - makro;Suscripción;usuario;6,0000;USD
+Microsoft;M365 F3 FUSL Sub Per User;Suscripción;Named User;41,0400;USD
 Microsoft;D365 Contact Center Digital Sub Per  User;Suscripción;usuario;781,6600;USD
 Microsoft;D365 Contact Center Sub Per User;Suscripción;usuario;905,0800;USD
 Microsoft;D365 Contact Center Voice Sub Per  User;Suscripción;usuario;781,6600;USD
 Microsoft;D365 Customer Insights Attach Sub;Suscripción;Dispositivo;4840,0000;USD
 Microsoft;D365 Customer Insights Journeys T2  Interacted People Sub Add-on;Suscripción;Dispositivo;1452,0000;USD
-Microsoft;M365 E3 Unified Existing Customer Sub Per User;Suscripción;Cantidad/Usuario;380,1600;USD
-Microsoft;O365 E1 Existing Customer Sub Per User;Suscripción;Cantidad/Usuario;25,3200;USD
-Microsoft;M365 F1 Sub Per User - TFM;Suscripción;Cantidad/Usuario;11,5200;USD
-Microsoft;Visual Studio Test Pro MSDN ALNG SA;Suscripción;Cantidad/Usuario;304,8000;USD
+Microsoft;M365 E3 Unified Existing Customer Sub Per User;Suscripción;Named User;380,1600;USD
+Microsoft;O365 E1 Existing Customer Sub Per User;Suscripción;Named User;25,3200;USD
+Microsoft;M365 F1 Sub Per User - TFM;Suscripción;Named User;11,5200;USD
+Microsoft;Visual Studio Test Pro MSDN ALNG SA;Suscripción;Named User;304,8000;USD
 Microsoft;Win Remote Desktop Services CAL ALng LSA DCAL;Suscripción;Por Definir;62,2800;USD
 Microsoft;Win Remote Desktop Services CAL ALng SA DCAL;Suscripción;Por Definir;26,6800;USD
-Microsoft;Project Standard ALNG SA;Suscripción;Cantidad/Usuario;127,4400;USD
+Microsoft;Project Standard ALNG SA;Suscripción;Named User;127,4400;USD
 Microsoft;Visio Standard ALNG SA;Suscripción;No aplica;58,0800;USD
-Microsoft;Visual Studio Ent MSDN ALNG SA;Suscripción;Cantidad/Usuario;1058,8800;USD
+Microsoft;Visual Studio Ent MSDN ALNG SA;Suscripción;Named User;1058,8800;USD
 Microsoft;Copilot Studio Sub (Messages);Suscripción;Eventos por mes;2280,0000;USD
-Microsoft;Core Cal ALNG LSA DCAL;Suscripción;Cantidad/Usuario;77,3200;USD
-Microsoft;Core Cal ALNG SA DCAL;Suscripción;Cantidad/Usuario;38,0400;USD
-Microsoft;Planner P1 Sub Per User;Suscripción;Cantidad/Usuario;901,3400;BRL
-Microsoft;Planner P1 Sub Per User;Suscripción;Cantidad/Usuario;104,7200;USD
-Microsoft;Planner P1 Sub Per User;Suscripción;Cantidad/Usuario;157,0800;USD
-Microsoft;M365 Copilot Sub Add-on;Suscripción;Cantidad/Usuario;600,0000;USD
-Microsoft;Teams Premium Introductory Pricing Sub Per User;Suscripción;Cantidad/Usuario;73,9200;USD
-Microsoft;GitHub Enterprise Sub Per User;Suscripción;Cantidad/Usuario;282,8000;USD
-Microsoft;GitHub Enterprise Sub Per User;Suscripción;Cantidad/Usuario;254,5200;USD
-Microsoft;M365 Copilot Sub Add-on;Suscripción;Cantidad/Usuario;2188,5000;BRL
-Microsoft;M365 Copilot Sub Add-on;Suscripción;Cantidad/Usuario;360,0000;USD
-Microsoft;M365 Copilot Sub Add-on;Suscripción;Cantidad/Usuario;364,7400;USD
-Microsoft;M365 Copilot Sub Add-on;Suscripción;Cantidad/Usuario;364,7400;USD
-Microsoft;GitHub Enterprise Sub Per User;Suscripción;Cantidad/Usuario;169,6800;USD
-Microsoft;GitHub Enterprise Sub Per User;Suscripción;Cantidad/Usuario;191,0000;USD
-Microsoft;GitHub Enterprise Sub Per User;Suscripción;Cantidad/Usuario;191,0000;USD
-Microsoft;GitHub Enterprise Sub Per User;Suscripción;Cantidad/Usuario;254,5200;USD
-Microsoft;GitHub Enterprise Sub Per User;Suscripción;Cantidad/Usuario;1157,4000;BRL
-Microsoft;M365 E3 Unified Sub Per User;Suscripción;Cantidad/Usuario;385,2000;USD
-Microsoft;M365 E3 Unified Sub Per User;Suscripción;Cantidad/Usuario;380,1600;USD
+Microsoft;Core Cal ALNG LSA DCAL;Suscripción;Named User;77,3200;USD
+Microsoft;Core Cal ALNG SA DCAL;Suscripción;Named User;38,0400;USD
+Microsoft;Planner P1 Sub Per User;Suscripción;Named User;901,3400;BRL
+Microsoft;Planner P1 Sub Per User;Suscripción;Named User;104,7200;USD
+Microsoft;Planner P1 Sub Per User;Suscripción;Named User;157,0800;USD
+Microsoft;M365 Copilot Sub Add-on;Suscripción;Named User;600,0000;USD
+Microsoft;Teams Premium Introductory Pricing Sub Per User;Suscripción;Named User;73,9200;USD
+Microsoft;GitHub Enterprise Sub Per User;Suscripción;Named User;282,8000;USD
+Microsoft;GitHub Enterprise Sub Per User;Suscripción;Named User;254,5200;USD
+Microsoft;M365 Copilot Sub Add-on;Suscripción;Named User;2188,5000;BRL
+Microsoft;M365 Copilot Sub Add-on;Suscripción;Named User;360,0000;USD
+Microsoft;M365 Copilot Sub Add-on;Suscripción;Named User;364,7400;USD
+Microsoft;M365 Copilot Sub Add-on;Suscripción;Named User;364,7400;USD
+Microsoft;GitHub Enterprise Sub Per User;Suscripción;Named User;169,6800;USD
+Microsoft;GitHub Enterprise Sub Per User;Suscripción;Named User;191,0000;USD
+Microsoft;GitHub Enterprise Sub Per User;Suscripción;Named User;191,0000;USD
+Microsoft;GitHub Enterprise Sub Per User;Suscripción;Named User;254,5200;USD
+Microsoft;GitHub Enterprise Sub Per User;Suscripción;Named User;1157,4000;BRL
+Microsoft;M365 E3 Unified Sub Per User;Suscripción;Named User;385,2000;USD
+Microsoft;M365 E3 Unified Sub Per User;Suscripción;Named User;380,1600;USD
 Microsoft;Win Server Standard Core ALng Sub 16L;Suscripción;Servidores;251,0400;USD
-Microsoft;SQL Server Standard Core ALng Sub 2L;Perpétua;Core;6319,9500;BRL
-Microsoft;SQL Server Standard Core ALng Sub 2L;Suscripción;Core;925,8000;USD
-Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción;Core;3550,0800;USD
-Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción;Core;3596,2800;USD
+Microsoft;SQL Server Standard Core ALng Sub 2L;Perpétua;Core-Based;6319,9500;BRL
+Microsoft;SQL Server Standard Core ALng Sub 2L;Suscripción;Core-Based;925,8000;USD
+Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción;Core-Based;3550,0800;USD
+Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción;Core-Based;3596,2800;USD
 Microsoft;Biztalk Svr Ent ALng Sub 2 Lic Core Lic;Suscripción;Servidores;432,6000;USD
-Microsoft;M365 E3 Unified Sub Per User;Suscripción;Cantidad/Usuario;380,1600;USD
-Microsoft;M365 E3 Unified Sub Per User;Suscripción;Cantidad/Usuario;2311,0100;BRL
-Microsoft;M365 E3 Unified Sub Per User;Suscripción;Cantidad/Usuario;385,2000;USD
-Microsoft;M365 F1 Sub Per User;Suscripción;Cantidad/Usuario;11,6400;USD
-Microsoft;M365 F1 Sub Per User;Suscripción;Cantidad/Usuario;11,6400;USD
-Microsoft;M365 F1 Sub Per User;Suscripción;Cantidad/Usuario;11,5200;USD
-Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción ;Core;332,0000;USD
-Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción;Core;295,8400;USD
-Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción;Core;24233,7900;BRL
-Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Cantidad/Usuario;19,0800;USD
-Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Cantidad/Usuario;19,0800;USD
-Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Cantidad/Usuario;18,8400;USD
-Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Cantidad/Usuario;18,8400;USD
-Microsoft;M365 F1 Sub Per User;Suscripción;Cantidad/Usuario;75,3700;BRL
-Microsoft;M365 F1 Sub Per User;Suscripción;Cantidad/Usuario;11,5200;USD
-Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Cantidad/Usuario;320,8800;USD
-Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Cantidad/Usuario;320,8800;USD
-Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Cantidad/Usuario;316,8000;USD
-Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Cantidad/Usuario;316,8000;USD
-Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Cantidad/Usuario;43,9100;BRL
-Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Cantidad/Usuario;18,8400;USD
+Microsoft;M365 E3 Unified Sub Per User;Suscripción;Named User;380,1600;USD
+Microsoft;M365 E3 Unified Sub Per User;Suscripción;Named User;2311,0100;BRL
+Microsoft;M365 E3 Unified Sub Per User;Suscripción;Named User;385,2000;USD
+Microsoft;M365 F1 Sub Per User;Suscripción;Named User;11,6400;USD
+Microsoft;M365 F1 Sub Per User;Suscripción;Named User;11,6400;USD
+Microsoft;M365 F1 Sub Per User;Suscripción;Named User;11,5200;USD
+Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción ;Core-Based;332,0000;USD
+Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción;Core-Based;295,8400;USD
+Microsoft; SQL Server Enterprise Core ALng Sub 2L;Suscripción;Core-Based;24233,7900;BRL
+Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Named User;19,0800;USD
+Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Named User;19,0800;USD
+Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Named User;18,8400;USD
+Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Named User;18,8400;USD
+Microsoft;M365 F1 Sub Per User;Suscripción;Named User;75,3700;BRL
+Microsoft;M365 F1 Sub Per User;Suscripción;Named User;11,5200;USD
+Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Named User;320,8800;USD
+Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Named User;320,8800;USD
+Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Named User;316,8000;USD
+Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Named User;316,8000;USD
+Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Named User;43,9100;BRL
+Microsoft;Azure Active Directory Premium P2 SU AADP P1;Suscripción;Named User;18,8400;USD
 Microsoft;Power Automate Sub Per User;Suscripción;usuario;158,4000;USD
 Microsoft;Power Automate Sub Per User;Suscripción;usuario;158,4000;USD
 Microsoft;Power Apps Portal Login T1 Sub Add-;Suscripción;Servidores;2112,0000;USD
 Microsoft;CDS Database Capacity Sub Add-on;Suscripción;Servidores;422,4000;USD
-Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Cantidad/Usuario;2071,5900;BRL
-Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Cantidad/Usuario;316,8000;USD
+Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Named User;2071,5900;BRL
+Microsoft;Teams Rooms Pro Sub Per Device;Suscripción;Named User;316,8000;USD
 Microsoft; GitHub Advanced Security;Suscripción;usuario;692,7900;USD
 Microsoft; GitHub Advanced Security;Suscripción;usuario;659,8000;USD
 Microsoft; GitHub Advanced Security;Suscripción;usuario;593,8200;USD
-Microsoft;Chatsession frVrtlAgnt Shared All Lng Subs VL MVL LmtdTimeOff Addon 1K sessions;Suscripción;Cantidad/Usuario;1056,0000;USD
+Microsoft;Chatsession frVrtlAgnt Shared All Lng Subs VL MVL LmtdTimeOff Addon 1K sessions;Suscripción;Named User;1056,0000;USD
 Microsoft; GitHub Advanced Security;Suscripción;usuario;395,8800;USD
 Microsoft; GitHub Advanced Security;Suscripción;usuario;445,5900;USD
 Microsoft;Intune USL;Suscripción;usuario;12,2400;USD
@@ -113,11 +124,11 @@ Microsoft;Intune USL;Suscripción;usuario;12,3600;USD
 Microsoft;Intune USL;Suscripción;usuario;12,3600;USD
 Microsoft;Dyn365 Customer Service Digital Messaging Sub AO Per User;Suscripción;usuario;237,3600;USD
 Microsoft;Dyn365E Team Members Sub Per User;Suscripción;usuario;25,4400;USD
-Microsoft;Power Automate Unattended RPA AO Sub Per Bot;Suscripción;Cantidad/Usuario;1584,0000;USD
+Microsoft;Power Automate Unattended RPA AO Sub Per Bot;Suscripción;Named User;1584,0000;USD
 Microsoft; D365 Sales Sub Per User;Suscripción;usuario;672,2400;USD
 Microsoft;WinRmtDsktpSrvcsCAL ALNG SubsVL MVL PerUsr;Suscripción;Servidores;233,6900;BRL
 Microsoft; VSProSubMSDN ALNG LicSAPk MVL;Perpétua;usuario;322,2000;USD
-Microsoft;Defender Cloud Apps Sub Per User;Suscripción;Cantidad/Usuario;18,8400;USD
+Microsoft;Defender Cloud Apps Sub Per User;Suscripción;Named User;18,8400;USD
 Microsoft;Power Virtual Agent;Suscripción;usuario;10560,0000;USD
 Microsoft;Dyn365E Customer Services PerUsr;Suscripción;usuario;114,0000;USD
 Microsoft;WinRmtDsktpSrvcsCAL ALNG SA MVL DvcCAL;Perpétua;Servidores;25,8900;USD
@@ -130,58 +141,58 @@ Microsoft;WinSvrSTDCore ALNG SA MVL 2Lic CoreLic;Perpétua;usuario;22,1200;USD
 Microsoft;WinRmtDsktpSrvcsCAL ALNG SA MVL DvcCAL;Perpétua;Servidores;25,5600;USD
 Microsoft;WinRmtDsktpSrvcsCAL ALNG SA MVL DvcCAL;Perpétua;Servidores;25,5600;USD
 Microsoft;WinRmtDsktpSrvcsCAL ALNG SA MVL DvcCAL;Perpétua;Servidores;25,8900;USD
-Microsoft;WinSvrDCCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;120,9000;USD
-Microsoft;WinSvrDCCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;701,2500;BRL
-Microsoft;WinSvrDCCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;105,0900;USD
-Microsoft;WinSvrDCCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;125,9400;USD
+Microsoft;WinSvrDCCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;120,9000;USD
+Microsoft;WinSvrDCCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;701,2500;BRL
+Microsoft;WinSvrDCCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;105,0900;USD
+Microsoft;WinSvrDCCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;125,9400;USD
 Microsoft;WinSvrSTDCore ALNG SA MVL 2Lic CoreLic;Perpétua;usuario;21,2500;USD
 Microsoft;WinSvrSTDCore ALNG SA MVL 2Lic CoreLic;Perpétua;usuario;145,0300;BRL
-Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;2845,1100;USD
-Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;2405,4600;USD
-Microsoft;SQLSvrStdCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;619,2300;USD
-Microsoft;SQLSvrStdCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;4227,0800;BRL
-Microsoft;SQLSvrStdCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;619,2300;USD
-Microsoft;SQLSvrStdCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;627,2800;USD
-Microsoft;Power BI Pro;Suscripción;Cantidad/Usuario;85,2000;USD
+Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;2845,1100;USD
+Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;2405,4600;USD
+Microsoft;SQLSvrStdCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;619,2300;USD
+Microsoft;SQLSvrStdCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;4227,0800;BRL
+Microsoft;SQLSvrStdCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;619,2300;USD
+Microsoft;SQLSvrStdCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;627,2800;USD
+Microsoft;Power BI Pro;Suscripción;Named User;85,2000;USD
 Microsoft;Power BI Pro;Suscripción;usuario;92,3000;USD
-Microsoft;Power BI Pro;Suscripción;Cantidad/Usuario;136,6100;USD
-Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;2374,5900;USD
-Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;16209,2700;BRL
-Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core;2374,5900;USD
-Microsoft;Power BI Pro;Suscripción;Cantidad/Usuario;556,9000;BRL
-Microsoft;Power BI Pro;Suscripción;Cantidad/Usuario;85,2000;USD
-Microsoft;Power BI Pro;Suscripción;Cantidad/Usuario;86,2800;USD
-Microsoft;Power BI Pro;Suscripción;Cantidad/Usuario;85,2000;USD
-Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;25,3200;USD
-Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;25,3200;USD
-Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;14,9800;USD
-Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;25,6800;USD
-Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;262,3900;BRL
-Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;25,3200;USD
-Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;25,6800;USD
-Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;25,3200;USD
-Microsoft;EOA Exchange Online Sub Per User;Suscripción;Cantidad/Usuario;52,6300;BRL
+Microsoft;Power BI Pro;Suscripción;Named User;136,6100;USD
+Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;2374,5900;USD
+Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;16209,2700;BRL
+Microsoft;SQLSvrEntCore ALNG SA MVL 2Lic CoreLic;Perpétua;Core-Based;2374,5900;USD
+Microsoft;Power BI Pro;Suscripción;Named User;556,9000;BRL
+Microsoft;Power BI Pro;Suscripción;Named User;85,2000;USD
+Microsoft;Power BI Pro;Suscripción;Named User;86,2800;USD
+Microsoft;Power BI Pro;Suscripción;Named User;85,2000;USD
+Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Named User;25,3200;USD
+Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Named User;25,3200;USD
+Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Named User;14,9800;USD
+Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Named User;25,6800;USD
+Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Named User;262,3900;BRL
+Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Named User;25,3200;USD
+Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Named User;25,6800;USD
+Microsoft;O365E1 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;Named User;25,3200;USD
+Microsoft;EOA Exchange Online Sub Per User;Suscripción;Named User;52,6300;BRL
 Microsoft;ExchgSvrStd ALNG SA MVL;Perpétua;Servidores;144,6000;USD
 Microsoft;ExchgSvrStd ALNG SA MVL;Perpétua;Servidores;987,2000;BRL
 Microsoft;ExchgSvrStd ALNG SA MVL;Suscripción;Servidores;144,6000;USD
 Microsoft;ExchgSvrStd ALNG SA MVL;Perpétua;Servidores;146,4800;USD
-Microsoft;EOA Exchange Online Sub Per User;Suscripción;Cantidad/Usuario;5,1600;USD
-Microsoft;EOA Exchange Online Sub Per User;Suscripción;Cantidad/Usuario;5,0400;USD
-Microsoft;EOA Exchange Online Sub Per User;Suscripción;Cantidad/Usuario;5,0400;USD
-Microsoft;EOA Exchange Online Sub Per User;Suscripción;Cantidad/Usuario;5,0400;USD
-Microsoft;EOA Exchange Online Sub Per User;Suscripción;Cantidad/Usuario;3,0100;USD
-Microsoft;EOA Exchange Online Sub Per User;Suscripción;Cantidad/Usuario;5,1600;USD
-Microsoft;EOA Exchange Online Sub Per User;Suscripción;Cantidad/Usuario;5,0400;USD
-Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;14,1600;USD
-Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;14,1600;USD
-Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;13,9200;USD
-Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;13,9200;USD
-Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;8,2600;USD
+Microsoft;EOA Exchange Online Sub Per User;Suscripción;Named User;5,1600;USD
+Microsoft;EOA Exchange Online Sub Per User;Suscripción;Named User;5,0400;USD
+Microsoft;EOA Exchange Online Sub Per User;Suscripción;Named User;5,0400;USD
+Microsoft;EOA Exchange Online Sub Per User;Suscripción;Named User;5,0400;USD
+Microsoft;EOA Exchange Online Sub Per User;Suscripción;Named User;3,0100;USD
+Microsoft;EOA Exchange Online Sub Per User;Suscripción;Named User;5,1600;USD
+Microsoft;EOA Exchange Online Sub Per User;Suscripción;Named User;5,0400;USD
+Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Named User;14,1600;USD
+Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Named User;14,1600;USD
+Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Named User;13,9200;USD
+Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Named User;13,9200;USD
+Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Named User;8,2600;USD
 Microsoft;CoreCALBridgeO365 ALNG SubsVL MVL PerUsr;Suscripción;usuario;26,0300;USD
 Microsoft;CoreCALBridgeO365 ALNG SubsVL MVL PerUsr;Suscripción;usuario;186,8000;BRL
-Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;112,1200;BRL
-Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;13,9200;USD
-Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Cantidad/Usuario;13,9200;USD
+Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Named User;112,1200;BRL
+Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Named User;13,9200;USD
+Microsoft;CoreCALBridgeO365FromSA ALNG SubsVL MVL PerUsr;Suscripción;Named User;13,9200;USD
 Microsoft;CoreCALBridgeO365 ALNG SubsVL MVL PerUsr;Suscripción;usuario;16,6800;USD
 Microsoft;CoreCALBridgeO365 ALNG SubsVL MVL PerUsr;Suscripción;usuario;21,9200;USD
 Microsoft;CoreCALBridgeO365 ALNG SubsVL MVL PerUsr;Suscripción;usuario;27,4000;USD
@@ -190,7 +201,7 @@ Microsoft;CoreCALBridgeO365 ALNG SubsVL MVL PerUsr;Suscripción;usuario;16,6800;
 Microsoft;CoreCALBridgeO365 ALNG SubsVL MVL PerUsr;Suscripción;usuario;26,0300;USD
 Microsoft;O365E3 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;usuario;1244,0000;BRL
 Microsoft;O365E3 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;usuario;180,6900;USD
-Microsoft;PowerAutomateperFlowplan;Suscripción;Cantidad/Usuario;1056,0000;USD
+Microsoft;PowerAutomateperFlowplan;Suscripción;Named User;1056,0000;USD
 Microsoft;O365E3 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;usuario;173,3400;USD
 Microsoft;O365E3 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;usuario;192,6000;USD
 Microsoft;O365E3 ShrdSvr ALNG SubsVL MVL PerUsr;Suscripción;usuario;152,1600;USD
@@ -206,34 +217,34 @@ Microsoft;M365AppsForEnterprisePerDevice ShrdSvr;Suscripción;Dispositivo;482,11
 Microsoft;M365AppsForEnterprisePerDevice ShrdSvr;Suscripción;Dispositivo;73,6800;USD
 Microsoft;M365AppsForEnterprisePerDevice ShrdSvr;Suscripción;Dispositivo;74,6400;USD
 Microsoft;M365AppsForEnterprisePerDevice ShrdSvr;Suscripción;Dispositivo;74,6400;USD
-Microsoft;Defender for Endpoint Per Device;Suscripción;Cantidad/Usuario;14,8800;USD
+Microsoft;Defender for Endpoint Per Device;Suscripción;Named User;14,8800;USD
 Microsoft;Defender for Endpoint Server ;Suscripción;Dispositivo;97,1100;BRL
 Microsoft;Defender for Endpoint Server ;Suscripción;Dispositivo;14,8800;USD
 Microsoft;Defender for Endpoint Server ;Suscripción;Dispositivo;15,1200;USD
 Microsoft;Defender for Endpoint Server ;Suscripción;Dispositivo;15,1200;USD
 Microsoft;Defender for Endpoint Server ;Suscripción;Dispositivo;14,8800;USD
-Microsoft;Defender for Endpoint Per Device;Suscripción;Cantidad/Usuario;14,8800;USD
-Microsoft;Defender for Endpoint Per Device;Suscripción;Cantidad/Usuario;15,1200;USD
-Microsoft;Defender for Endpoint Per Device;Suscripción;Cantidad/Usuario;15,1200;USD
-Microsoft;Defender for Endpoint Per Device;Suscripción;Cantidad/Usuario;14,8800;USD
-Microsoft;Defender for Endpoint Per Device;Suscripción;Cantidad/Usuario;14,8800;USD
+Microsoft;Defender for Endpoint Per Device;Suscripción;Named User;14,8800;USD
+Microsoft;Defender for Endpoint Per Device;Suscripción;Named User;15,1200;USD
+Microsoft;Defender for Endpoint Per Device;Suscripción;Named User;15,1200;USD
+Microsoft;Defender for Endpoint Per Device;Suscripción;Named User;14,8800;USD
+Microsoft;Defender for Endpoint Per Device;Suscripción;Named User;14,8800;USD
 Microsoft;Azure Active Directory Premium P2;Suscripción;usuario;30,6000;USD
 Microsoft;Azure Active Directory Premium P2;Suscripción;usuario;31,9200;USD
 Microsoft;Azure Active Directory Premium P2;Suscripción;usuario;220,0000;USD
 Microsoft;Azure Active Directory Premium P2;Suscripción;usuario;31,9200;USD
-Microsoft;Defender for Endpoint Per Device;Suscripción;Cantidad/Usuario;110,2700;BRL
+Microsoft;Defender for Endpoint Per Device;Suscripción;Named User;110,2700;BRL
 Microsoft;Azure Active Directory Premium P2;Suscripción;usuario;20,4000;USD
 Microsoft;Azure Active Directory Premium P2;Suscripción;usuario;20,4000;USD
 Microsoft;Azure Active Directory Premium P2;Suscripción;usuario;26,8800;USD
 Microsoft;Azure Active Directory Premium P2;Suscripción;usuario;33,6000;USD
-Microsoft;Defender for O365 Plan 2 ;Suscripción;Cantidad/Usuario;10,2400;USD
-Microsoft;Defender for O365 Plan 2 ;Suscripción;Cantidad/Usuario;12,8000;USD
-Microsoft;Defender for O365 Plan 2 ;Suscripción;Cantidad/Usuario;11,7000;USD
-Microsoft;Defender for O365 Plan 2 ;Suscripción;Cantidad/Usuario;12,1600;USD
-Microsoft;Defender for O365 Plan 2 ;Suscripción;Cantidad/Usuario;83,2000;USD
-Microsoft;Defender for O365 Plan 2 ;Suscripción;Cantidad/Usuario;12,1600;USD
-Microsoft;Defender for O365 Plan 2 ;Suscripción;Cantidad/Usuario;7,8000;USD
-Microsoft;Defender for O365 Plan 2 ;Suscripción;Cantidad/Usuario;7,8000;USD
+Microsoft;Defender for O365 Plan 2 ;Suscripción;Named User;10,2400;USD
+Microsoft;Defender for O365 Plan 2 ;Suscripción;Named User;12,8000;USD
+Microsoft;Defender for O365 Plan 2 ;Suscripción;Named User;11,7000;USD
+Microsoft;Defender for O365 Plan 2 ;Suscripción;Named User;12,1600;USD
+Microsoft;Defender for O365 Plan 2 ;Suscripción;Named User;83,2000;USD
+Microsoft;Defender for O365 Plan 2 ;Suscripción;Named User;12,1600;USD
+Microsoft;Defender for O365 Plan 2 ;Suscripción;Named User;7,8000;USD
+Microsoft;Defender for O365 Plan 2 ;Suscripción;Named User;7,8000;USD
 Microsoft;Defender Identity Sub Per User;Suscripción;usuario;19,9800;USD
 Microsoft;Defender Identity Sub Per User;Suscripción;usuario;20,9000;USD
 Microsoft;Defender Identity Sub Per User;Suscripción;usuario;134,4000;BRL
@@ -247,18 +258,19 @@ Microsoft;WinRmtDsktpSrvcsCAL ALNG LicSAPk MVL DvcCAL;Suscripción;Servidores;84
 Microsoft;WinRmtDsktpSrvcsCAL ALNG LicSAPk MVL DvcCAL;Suscripción;Servidores;42,9100;USD
 Microsoft;WinRmtDsktpSrvcsCAL ALNG LicSAPk MVL DvcCAL;Suscripción;Servidores;42,3600;USD
 Microsoft;WinRmtDsktpSrvcsCAL ALNG LicSAPk MVL DvcCAL;Suscripción;Servidores;42,3600;USD
-Microsoft;Power Apps per User plan;Suscripción;Cantidad/Usuario;211,2000;USD
+Microsoft;Power Apps per User plan;Suscripción;Named User;211,2000;USD
 Microsoft;Power Automate RPA;Suscripción ;usuario;422,4000;USD
 Microsoft;Power Automate RPA;Suscripción;usuario;422,4000;USD
 Microsoft;Power Automate RPA;Suscripción;usuario;1931,4000;BRL
 Microstrategy;Cloud Architect User;Suscripción;NAMED USER PLUS;1250,2500;USD
 Microstrategy;Store User;Suscripción;Each light User Per Year;156,0000;USD
-Nintex;Together Nintex Workflow Standard & Nintex Forms Standard Software Assurance;Suscripción;Cantidad/Usuario;23992060,0000;CLP
+Nintex;Together Nintex Workflow Standard & Nintex Forms Standard Software Assurance;Suscripción;Named User;23992060,0000;CLP
 SAP; Ariba Sourcing;Suscripción;usuario;616,7600;USD
 SAP;SAP Ariba Contracts;Suscripción;usuario;942,6300;USD
 SAP;Ariba Supplier Lifecycle & Perf.;Suscripción;usuario;1261,2900;USD
 SAP;Ariba Catalog;Suscripción;Cantidad Gastado (USD);83495,3200;USD
 Thinkcell;Licencias Thinkcell;Suscripción;usuario;2124,8500;BRL
+Thinkcell;Licencias Thinkcell;Suscripción;usuario;262,0000;USD
 Veritas;NETBACKUP ENTERPRISE XPLAT 1 FRONT END TB ONPREMISE STANDARD SUBSCRIPTION + ESSENTIAL MAINTENANCE LICENSE RENEWAL 36MO CORPORATE;Suscripción;TeraBytes;549,0000;USD
 Veritas;VERITAS ALTA DATA PROTECTION XPLAT 1 FRONT END TB STANDARD SUBSCRIPTION + ESSENTIAL MAINTENANCE LICENSE INITIAL 36MO CORPORATE;Suscripción;TeraBytes;549,0000;USD
 Veritas;VERITAS ALTA DATA PROTECTION XPLAT 1 FRONT END TB STANDARD SUBSCRIPTION + ESSENTIAL MAINTENANCE CONVERSION FROM PERPETUAL LICENSE INITIAL 36MO CORPORATE;Suscripción;TeraBytes;549,0000;USD
@@ -267,7 +279,7 @@ Vmware;Tanzu CloudHealth;Suscripción;Cantidad Gastado (USD);158262,0000;USD
 Trend;Deep Security - Network Security - per Server (VM);Perpétua;Servidores;51515,1000;CLP
 Trend;Deep Discovery Inspector Model 1000 - 1Gbps ;Perpétua;Servidores;52000000,0000;ARS
 Trend;Vision One Core – Apex SaaS ;Suscripción;No aplica;6764,3030;CLP
-Trend;Email and Collaboration Core – Cloud App Security ;Suscripción;Cantidad/Usuario;5719,0900;CLP
+Trend;Email and Collaboration Core – Cloud App Security ;Suscripción;Named User;5719,0900;CLP
 Trend;Vision One Pro – Workload Security;Suscripción;No aplica;123071,0700;CLP
 Asana;Licencia Asana Business;Suscripción;usuario;23,7400;USD
 JAMF;JAMF PRO MAC;Suscripción;usuario;89,7800;USD
@@ -277,17 +289,16 @@ mimix;MIMIX 78AA920 Model: 42A-P9;Perpétua;Servidores;14185461,5000;CLP
 mimix;MIMIX 78AA930 Model: 42A-P9;Perpétua;Servidores;14185461,5000;CLP
 seattlelab;SLNET 500 sesiones concurrentes;Perpétua;TeraBytes;781200,0000;CLP
 seattlelab;SL NET 6.3 (64bit);Perpétua;Servidores;325500,0000;CLP
-zendesk;Zendesk;Suscripción;usuario;1214,6400;USD
 zendesk;Zendesk;Suscripción;usuario;1232,8800;USD
 automation anywhere;Bot Runner;Suscripción;usuario;5053,0000;USD
-automation anywhere;Control Room;Suscripción;Cantidad/Usuario;18950,0000;USD
-automation anywhere;Unattended Bot Runner;Suscripción;Cantidad/Usuario;8621,0000;
+automation anywhere;Control Room;Suscripción;Named User;18950,0000;USD
+automation anywhere;Unattended Bot Runner;Suscripción;Named User;8621,0000;
 FAMOC;Famoc por dispositivo;Suscripción;Dispositivo;36,0000;USD
-Gitlab;Gitlab premium;Suscripción;Cantidad/Usuario;347,0600;USD
+Gitlab;Gitlab premium;Suscripción;Named User;347,0600;USD
 hotjar;Hotjar;Suscripción;Servidores;118800,0000;USD
-sketchup;Sketchup;Suscripción;Cantidad/Usuario;3241,0100;BRL
-sketchup;Sketchup;Suscripción;Cantidad/Usuario;399,0000;USD
-sketchup;Sketchup;Suscripción;Cantidad/Usuario;395,0000;USD
+sketchup;Sketchup;Suscripción;Named User;3241,0100;BRL
+sketchup;Sketchup;Suscripción;Named User;348,5000;USD
+sketchup;Sketchup;Suscripción;Named User;348,5000;USD
 Serrala;CAS-D;Perpétua;No aplica;5610,4600;USD
 Apple;Apple Developer Enterprise Program;Suscripción;usuario;299,0000;USD
 Figma;Full Seat Enterprise;Suscripción;usuario;90,0000;USD
@@ -301,25 +312,25 @@ BrowserStack;App testing App Live Team;Suscripción;usuario;360,0000;USD
 GEOVICTORIA;Geovictoria;Suscripción;Cantidad;198598440,0000;CLP
 65bit;EasyCatalog - Single Versión Upgrade;Perpétua;usuario;324,7500;USD
 Articulate Global, LLC;Articulate 360 Teams;Suscripción;usuario;1499,0000;USD
-Tiny Technologies Inc.;Tiny Profesional;Suscripción;usuario;90,0000;USD
+Tiny Technologies Inc.;Tiny Profesional;Suscripción;usuario;145,0000;USD
 Oracle - Siebel;Siebel CRM Base - Application - User Perpetual;Perpétua;Servidores;834,6500;CLP
 Oracle - Siebel;Siebel CTI - Application User Perpetual;Perpétua;Servidores;36,7000;CLP
 Oracle - Siebel;Siebel Dynamic Catalog - Application User Perpetual;Perpétua;Servidores;16,2900;CLP
 Oracle - Siebel;Siebel Email Marketing Server - Computer Perpetual;Perpétua;CPU Capacity;4213862,0000;CLP
 Oracle - Siebel;Siebel Email Response - Application User Perpetual;Perpétua;Servidores;3,7700;CLP
 Oracle - Siebel;Siebel Financial Accounts - Application User Perpetual;Perpétua;Servidores;39,5900;CLP
-Oracle - Siebel;Oracle WebCenter Sites Satellite Server - Named User Plus Perpetual;Perpétua;Cantidad/Usuario;4321,0000;CLP
+Oracle - Siebel;Oracle WebCenter Sites Satellite Server - Named User Plus Perpetual;Perpétua;Named User;4321,0000;CLP
 Oracle - Siebel;Oracle WebCenter Sites Satellite Server - Processor Perpetual;Perpétua;Socket o CPU;216049,0000;CLP
 Oracle - Siebel;Siebel Loyalty Engine Multi-Partner Edition - 100K Member Records Perpetual;Perpétua;Servidores;593,0000;CLP
 Oracle - Siebel;Siebel Loyalty Member Services Representative - Application User Perpetual;Perpétua;Servidores;4969,0000;CLP
 Oracle - Siebel;Siebel Marketing Resource Manager - Application User Perpetual;Perpétua;Servidores;2938,7400;CLP
 Oracle - Siebel;Oracle Business Intelligence Foundation Suite - Named User Plus Perpetual;Perpétua;NAMED USER PLUS;31760,0000;CLP
-Oracle - Siebel;Oracle WebCenter Sites Mobile Option - Named User Plus Perpetual;Perpétua;Cantidad/Usuario;3457,0000;CLP
+Oracle - Siebel;Oracle WebCenter Sites Mobile Option - Named User Plus Perpetual;Perpétua;Named User;3457,0000;CLP
 Oracle - Siebel;Oracle WebCenter Sites Mobile Option - Processor Perpetual;Perpétua;Socket o CPU;172840,0000;CLP
 Oracle - Siebel;Oracle WebCenter Sites - Named User Plus Perpetual;Perpétua;Socket o CPU;17284,0000;CLP
 Oracle - Siebel;Oracle WebCenter Sites - Processor Perpetual;Perpétua;Socket o CPU;864202,0000;CLP
 Oracle - Siebel;Siebel Remote Client - Application User Perpetual;Perpétua;Servidores;4,6500;CLP
-Oracle - Siebel;Siebel SmartScript - Application User Perpetual;Perpétua;Cantidad/Usuario;71,4100;CLP
+Oracle - Siebel;Siebel SmartScript - Application User Perpetual;Perpétua;Named User;71,4100;CLP
 Oracle - Siebel;Siebel Tools - Application User Perpetual;Perpétua;Servidores;1636,8400;CLP
 Oracle - Siebel;Siebel Customer Order Management Administrator - Application User Perpetual;Perpétua;Servidores;3146874,0000;CLP
 Oracle - Siebel;Siebel Email/Web Offer Designer - Application User Perpetual;Perpétua;Servidores;74586,4500;CLP
@@ -341,20 +352,20 @@ Notion;Notion Plan Business;Suscripción;usuario;180,0000;USD
 BAYMARD;Baymard Research;Suscripción;usuario;9500,0000;USD
 Kahoot! ASA;Kahoot! 360 Pro;Suscripción;usuario;708,0000;USD
 Cloudflare;Cloudflare;Suscripción;usuario;15398,9000;USD
-Mentimeter;Mentimeter Pro;Suscripción;Cantidad/Usuario;156,0000;USD
-Softguard;Softguard Ultra;Suscripción;Cantidad/Usuario;10490,0000;USD
+Mentimeter;Mentimeter Pro;Suscripción;Named User;156,0000;USD
+Softguard;Softguard Ultra;Suscripción;Named User;10490,0000;USD
 Soti;SOTI MobiControl;Suscripción;Dispositivo;26,5200;USD
-Canva;Canva for teams;Suscripción;Cantidad/Usuario;1520,0000;PEN
-Canva;Canva for teams;Suscripción;Cantidad/Usuario;180000,0000;CLP
+Canva;Canva for teams;Suscripción;Named User;1520,0000;PEN
+Canva;Canva for teams;Suscripción;Named User;180000,0000;CLP
 Parallels International GmbH.;Parallels Desktop for Mac Professional Edition;Suscripción;usuario;118,0000;USD
 Parallels International GmbH.;Parallels Desktop for Mac Professional Edition;Suscripción;usuario;118,0000;USD
 Sendgrid;Sendgrid;Suscripción;usuario;3648,0000;USD
 VWO;VWO Testing & Mobile;Suscripción;Sesiones Disponibles;60000,0000;USD
-Resguarda;Linea Etica;Suscripción;Cantidad/Usuario;42000,0000;USD
+Resguarda;Linea Etica;Suscripción;Named User;42000,0000;USD
 App Samurai INC;Storyly;Suscripción;Volumen de vistas (WebPage);192427,0000;USD
 NEOSECURE;BTS;Suscripción;Transacciones Anuales;199992,0000;USD
-NOVARED;CyberArk - Secure IT & Ops Users - Enterprise;Suscripción;Cantidad/Usuario;1170,0000;USD
-NOVARED;CyberArk - Secure IT & Ops Users - Standard;Suscripción;Cantidad/Usuario;775,0000;USD
+NOVARED;CyberArk - Secure IT & Ops Users - Enterprise;Suscripción;Named User;1170,0000;USD
+NOVARED;CyberArk - Secure IT & Ops Users - Standard;Suscripción;Named User;775,0000;USD
 NOVARED;CyberArk Secrets Hub;Suscripción;Servidor Virtual;38400,0000;USD
 NOVARED;CyberArk Addon Secrets Hub;Suscripción;Servidor Virtual;1765,0000;USD
 SalesForce;Loyalty - Stogare/API Call/Pipeines;Suscripción;Transacciones Anuales;64820,0000;USD
@@ -365,10 +376,9 @@ SEON Technologies Lt;SEON ;Suscripción;Eventos por mes;315670,0000;USD
 FORTRA;Powertech Exit Point Manager for IBM I - Primary Subscription;Perpétua;CPU Capacity;7043,4400;USD
 TDI XCOM;CA-XCOM;Suscripción;usuario;2570,0000;USD
 Acoustic;Demandtec;Suscripción;RUM (Revenue Under Managment);305081,0000;USD
-Sonar;SonarQube;Suscripción;Dispositivo;64700,0000;USD
 Zebra BI d.d.;Zebra BI for Power BI - Enterprise Plan;Suscripción;usuario;192,0000;USD
 Office Timeline;Office Timeline Add-in Expert;Suscripción;usuario;271,6600;USD
-Oracle- MFP;Merchandise Financial Planning;Suscripción;Core;127437909,0000;CLP
+Oracle- MFP;Merchandise Financial Planning;Suscripción;Core-Based;127437909,0000;CLP
 Ivanti Velocity;140-SUB-VELOCTE;Suscripción;usuario;118000,0000;CLP
 Blue Yonder;Plataforma Catman Blue Yonder;Suscripción;Tarifa Plana (Flat Fee);252000,0000;USD
 Blue Yonder;Plataforma Catman Blue Yonder - MH;Suscripción;Tarifa Plana (Flat Fee);174000,0000;USD
@@ -380,8 +390,8 @@ Revionics;Price Optimization;Suscripción;Tarifa Plana (Flat Fee);353854,0000;US
 Revionics;Price Optimization;Suscripción;Tarifa Plana (Flat Fee);634864,0000;USD
 Commercetools;Commercetools Inc.;Suscripción;Transacciones Anuales;1124775,0000;USD
 Supermetrics OY;Business Lite package;Suscripción;datos cuantitativos;7500,0000;USD
-XBREIN;Gbrein;Suscripción;Cantidad/Usuario;38038185,6000;CLP
-XBREIN;Gbrein;Suscripción;Cantidad/Usuario;15849244,0000;CLP
+XBREIN;Gbrein;Suscripción;Named User;38038185,6000;CLP
+XBREIN;Gbrein;Suscripción;Named User;15849244,0000;CLP
 Shift Labor;Shift Workforce Management;Suscripción;usuario;80476366,0000;CLP
 Seidor Analytics;SNOWFLAKE;Suscripción;Por Definir;130000,0000;USD
 INTEROP CHILE CONSULTORES DE;Direct Link for SAP;Suscripción;usuario;4627,3500;USD
